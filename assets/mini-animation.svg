@@ -91,5 +91,6 @@
     <circle cx="824" cy="82" r="5" fill="#fb923c"/>
   </g>
 
-  <text x="602" y="222" font-family="Cascadia Code, Fira Code, JetBrains Mono, Consolas, monospace" font-size="16" font-weight="700" fill="#e5e7eb">Web Development / AI/ML / Data Science</text>
+  <text x="772" y="212" text-anchor="middle" font-family="Cascadia Code, Fira Code, JetBrains Mono, Consolas, monospace" font-size="15" font-weight="700" fill="#e5e7eb">Web Development / AI/ML</text>
+  <text x="772" y="236" text-anchor="middle" font-family="Cascadia Code, Fira Code, JetBrains Mono, Consolas, monospace" font-size="15" font-weight="700" fill="#e5e7eb">Data Science</text>
 </svg>

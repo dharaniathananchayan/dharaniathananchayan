@@ -41,7 +41,7 @@ I'm a data-focused developer who turns raw information into clear insights, smar
 ## GitHub Snapshot
 
 <p align="center">
-  <img width="98%" src="./assets/github-snapshot.svg" alt="Custom GitHub snapshot dashboard" />
+  <img width="98%" src="./assets/github-activity-track.svg" alt="Fun GitHub activity track" />
 </p>
 
 ## Connect

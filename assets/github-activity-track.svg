@@ -1,0 +1,114 @@
+<svg width="1000" height="360" viewBox="0 0 1000 360" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">Fun GitHub activity track</title>
+  <desc id="desc">A playful animated track showing GitHub activity as a journey through commits, projects, learning, and shipping.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1000" y2="360" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#020617"/>
+      <stop offset=".52" stop-color="#111827"/>
+      <stop offset="1" stop-color="#07111f"/>
+    </linearGradient>
+    <linearGradient id="track" x1="112" y1="0" x2="894" y2="0" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#22d3ee"/>
+      <stop offset=".42" stop-color="#a78bfa"/>
+      <stop offset=".72" stop-color="#fb7185"/>
+      <stop offset="1" stop-color="#facc15"/>
+    </linearGradient>
+    <filter id="softGlow" x="-40%" y="-40%" width="180%" height="180%">
+      <feGaussianBlur stdDeviation="7" result="blur"/>
+      <feColorMatrix in="blur" type="matrix" values="0 0 0 0 0.25 0 0 0 0 0.75 0 0 0 0 1 0 0 0 .45 0"/>
+      <feBlend in="SourceGraphic"/>
+    </filter>
+    <style>
+      .title { font: 800 34px "Inter", "Segoe UI", Arial, sans-serif; fill: #f8fafc; }
+      .sub { font: 500 15px "Inter", "Segoe UI", Arial, sans-serif; fill: #a5b4fc; }
+      .label { font: 800 15px "Inter", "Segoe UI", Arial, sans-serif; fill: #f8fafc; }
+      .tiny { font: 600 12px "Inter", "Segoe UI", Arial, sans-serif; fill: #94a3b8; }
+      .mono { font: 800 14px "Cascadia Code", "Fira Code", Consolas, monospace; fill: #dbeafe; }
+      .dash {
+        stroke-dasharray: 12 16;
+        animation: dash 14s linear infinite;
+      }
+      .runner {
+        animation: run 7s ease-in-out infinite;
+        offset-path: path("M112 222 C190 116 284 116 358 206 C426 288 520 292 584 202 C660 96 764 110 828 198 C852 230 874 236 894 218");
+        offset-rotate: 0deg;
+      }
+      .bounce { animation: bounce 2.8s ease-in-out infinite; transform-origin: center; }
+      .bounce.two { animation-delay: .35s; }
+      .bounce.three { animation-delay: .7s; }
+      .pulse { animation: pulse 2.2s ease-in-out infinite; transform-origin: center; }
+      @keyframes dash {
+        to { stroke-dashoffset: -280; }
+      }
+      @keyframes run {
+        0%, 100% { offset-distance: 0%; }
+        50% { offset-distance: 100%; }
+      }
+      @keyframes bounce {
+        0%, 100% { transform: translateY(0); }
+        50% { transform: translateY(-8px); }
+      }
+      @keyframes pulse {
+        0%, 100% { opacity: .75; transform: scale(1); }
+        50% { opacity: 1; transform: scale(1.08); }
+      }
+    </style>
+  </defs>
+
+  <rect width="1000" height="360" rx="28" fill="url(#bg)"/>
+  <circle cx="890" cy="58" r="90" fill="#38bdf8" opacity=".10"/>
+  <circle cx="120" cy="310" r="105" fill="#34d399" opacity=".08"/>
+  <circle cx="506" cy="190" r="160" fill="#8b5cf6" opacity=".07"/>
+
+  <text x="54" y="64" class="title">GitHub Activity Track</text>
+  <text x="56" y="94" class="sub">a fun little route through commits, experiments, dashboards and shipped ideas</text>
+
+  <path d="M112 222 C190 116 284 116 358 206 C426 288 520 292 584 202 C660 96 764 110 828 198 C852 230 874 236 894 218"
+        stroke="#1e293b" stroke-width="32" stroke-linecap="round"/>
+  <path d="M112 222 C190 116 284 116 358 206 C426 288 520 292 584 202 C660 96 764 110 828 198 C852 230 874 236 894 218"
+        stroke="url(#track)" stroke-width="10" stroke-linecap="round" filter="url(#softGlow)"/>
+  <path class="dash" d="M112 222 C190 116 284 116 358 206 C426 288 520 292 584 202 C660 96 764 110 828 198 C852 230 874 236 894 218"
+        stroke="#f8fafc" stroke-width="3" stroke-linecap="round" opacity=".7"/>
+
+  <g class="runner">
+    <circle cx="0" cy="0" r="21" fill="#020617" stroke="#facc15" stroke-width="5"/>
+    <text x="-10" y="6" font-family="Segoe UI, Arial, sans-serif" font-size="18" font-weight="900" fill="#facc15">&gt;</text>
+  </g>
+
+  <g class="bounce">
+    <circle cx="112" cy="222" r="18" fill="#020617" stroke="#22d3ee" stroke-width="5"/>
+    <text x="74" y="274" class="label">Commits</text>
+    <text x="78" y="294" class="tiny">daily progress</text>
+  </g>
+  <g class="bounce two">
+    <circle cx="358" cy="206" r="18" fill="#020617" stroke="#a78bfa" stroke-width="5"/>
+    <text x="314" y="154" class="label">Projects</text>
+    <text x="300" y="174" class="tiny">ideas to apps</text>
+  </g>
+  <g class="bounce three">
+    <circle cx="584" cy="202" r="18" fill="#020617" stroke="#fb7185" stroke-width="5"/>
+    <text x="540" y="264" class="label">Learning</text>
+    <text x="524" y="284" class="tiny">ML, BI, web</text>
+  </g>
+  <g class="bounce two">
+    <circle cx="828" cy="198" r="18" fill="#020617" stroke="#facc15" stroke-width="5"/>
+    <text x="790" y="146" class="label">Shipping</text>
+    <text x="770" y="166" class="tiny">polished work</text>
+  </g>
+
+  <g transform="translate(58 306)">
+    <rect width="254" height="34" rx="17" fill="#0f172a" stroke="#334155"/>
+    <circle cx="20" cy="17" r="6" fill="#22d3ee" class="pulse"/>
+    <text x="38" y="22" class="mono">Data Science</text>
+    <text x="152" y="22" class="tiny">+</text>
+    <text x="172" y="22" class="mono">AI/ML</text>
+  </g>
+
+  <g transform="translate(694 306)">
+    <rect width="248" height="34" rx="17" fill="#0f172a" stroke="#334155"/>
+    <circle cx="20" cy="17" r="6" fill="#facc15" class="pulse"/>
+    <text x="38" y="22" class="mono">Web Dev</text>
+    <text x="118" y="22" class="tiny">+</text>
+    <text x="138" y="22" class="mono">Analytics</text>
+  </g>
+</svg>
