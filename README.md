@@ -35,7 +35,7 @@ I'm a developer who enjoys building intelligent, useful software with a mix of A
 </p>
 
 <p align="center">
-  <img width="98%" src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=dharaniathananchayan&theme=tokyonight" alt="GitHub Contribution Graph" />
+  <img width="98%" src="https://github-readme-activity-graph.vercel.app/graph?username=dharaniathananchayan&theme=tokyo-night&hide_border=true&radius=8" alt="GitHub Activity Graph" />
 </p>
 
 ## Connect
