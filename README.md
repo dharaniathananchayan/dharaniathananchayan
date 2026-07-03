@@ -29,9 +29,14 @@ I'm a developer who enjoys building intelligent, useful software with a mix of A
 
 ## GitHub Snapshot
 
-![GitHub Stats](https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=dharaniathananchayan&theme=tokyonight)
+<p align="center">
+  <img width="49%" src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=dharaniathananchayan&theme=tokyonight" alt="GitHub Stats" />
+  <img width="49%" src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=dharaniathananchayan&theme=tokyonight" alt="Top Languages" />
+</p>
 
-![Top Languages](https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=dharaniathananchayan&theme=tokyonight)
+<p align="center">
+  <img width="98%" src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=dharaniathananchayan&theme=tokyonight" alt="GitHub Contribution Graph" />
+</p>
 
 ## Connect
 
