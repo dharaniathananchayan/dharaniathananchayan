@@ -7,7 +7,7 @@
     .dot-red { fill: #fb7185; }
     .dot-yellow { fill: #facc15; }
     .dot-green { fill: #22c55e; }
-    .text { font: 600 18px Consolas, Monaco, monospace; fill: #e5e7eb; }
+    .text { font: 600 18px "Cascadia Code", "Fira Code", "JetBrains Mono", Consolas, monospace; fill: #e5e7eb; }
     .muted { fill: #94a3b8; }
     .blue { fill: #38bdf8; }
     .green { fill: #34d399; }
@@ -58,10 +58,10 @@
   <circle cx="98" cy="56" r="6" class="dot-yellow"/>
   <circle cx="118" cy="56" r="6" class="dot-green"/>
 
-  <text x="78" y="108" class="text"><tspan class="pink">def</tspan> turn_data_into(<tspan class="blue">impact</tspan>):</text>
-  <text x="106" y="138" class="text muted">insights = analyze(<tspan class="green">"data"</tspan>)</text>
-  <text x="106" y="168" class="text muted">model = ML + DeepLearning + BI</text>
-  <text x="106" y="198" class="text"><tspan class="orange">return</tspan> smarter_decisions<tspan class="cursor">_</tspan></text>
+  <text x="78" y="108" class="text"><tspan class="pink">def</tspan> build_with(<tspan class="blue">data</tspan>):</text>
+  <text x="106" y="138" class="text muted">skills = WebDev + <tspan class="green">"AI/ML"</tspan></text>
+  <text x="106" y="168" class="text muted">insights = DataScience + Analytics</text>
+  <text x="106" y="198" class="text"><tspan class="orange">return</tspan> intelligent_products<tspan class="cursor">_</tspan></text>
 
   <rect x="150" y="206" width="240" height="8" rx="4" fill="#334155"/>
   <rect x="150" y="206" width="240" height="8" rx="4" class="blue progress-a"/>
@@ -91,5 +91,5 @@
     <circle cx="824" cy="82" r="5" fill="#fb923c"/>
   </g>
 
-  <text x="620" y="222" font-family="Consolas, Monaco, monospace" font-size="18" font-weight="700" fill="#e5e7eb">Data Science | AI/ML | Python</text>
+  <text x="602" y="222" font-family="Cascadia Code, Fira Code, JetBrains Mono, Consolas, monospace" font-size="16" font-weight="700" fill="#e5e7eb">Web Development / AI/ML / Data Science</text>
 </svg>
