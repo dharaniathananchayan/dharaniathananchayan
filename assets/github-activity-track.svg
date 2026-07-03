@@ -1,5 +1,6 @@
 <svg width="1000" height="360" viewBox="0 0 1000 360" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
-  <title id="title">Fun GitHub activity track</title>
+  <title id="title">Fun activity track</title>
+  <desc id="desc">A playful animated track showing activity through commits, projects, learning, and innovative work.</desc>
   <defs>
     <linearGradient id="bg" x1="0" y1="0" x2="1000" y2="360" gradientUnits="userSpaceOnUse">
       <stop stop-color="#020617"/>
@@ -59,8 +60,6 @@
   <circle cx="120" cy="310" r="105" fill="#34d399" opacity=".08"/>
   <circle cx="506" cy="190" r="160" fill="#8b5cf6" opacity=".07"/>
 
-  <text x="54" y="64" class="title">GitHub Activity Track</text>
-
   <path d="M112 222 C190 116 284 116 358 206 C426 288 520 292 584 202 C660 96 764 110 828 198 C852 230 874 236 894 218"
         stroke="#1e293b" stroke-width="32" stroke-linecap="round"/>
   <path d="M112 222 C190 116 284 116 358 206 C426 288 520 292 584 202 C660 96 764 110 828 198 C852 230 874 236 894 218"
@@ -75,34 +74,39 @@
 
   <g class="bounce">
     <circle cx="112" cy="222" r="18" fill="#020617" stroke="#22d3ee" stroke-width="5"/>
-    <text x="74" y="274" class="label">Commits</text>
+    <text x="76" y="274" class="label">Commits</text>
   </g>
   <g class="bounce two">
     <circle cx="358" cy="206" r="18" fill="#020617" stroke="#a78bfa" stroke-width="5"/>
-    <text x="314" y="154" class="label">Projects</text>
+    <text x="320" y="154" class="label">Projects</text>
   </g>
   <g class="bounce three">
     <circle cx="584" cy="202" r="18" fill="#020617" stroke="#fb7185" stroke-width="5"/>
-    <text x="540" y="264" class="label">Learning</text>
+    <text x="548" y="264" class="label">Learning</text>
   </g>
   <g class="bounce two">
     <circle cx="828" cy="198" r="18" fill="#020617" stroke="#facc15" stroke-width="5"/>
-    <text x="790" y="146" class="label">Improving</text>
+    <text x="786" y="146" class="label">Innovative</text>
   </g>
 
-  <g transform="translate(58 306)">
-    <rect width="254" height="34" rx="17" fill="#0f172a" stroke="#334155"/>
-    <circle cx="20" cy="17" r="6" fill="#22d3ee" class="pulse"/>
-    <text x="38" y="22" class="mono">Data Science</text>
-    <text x="152" y="22" class="tiny">+</text>
-    <text x="172" y="22" class="mono">AI/ML</text>
+  <g class="pulse">
+    <circle cx="198" cy="138" r="5" fill="#22d3ee"/>
+    <text x="214" y="143" class="mono">Data Science</text>
   </g>
-
-  <g transform="translate(694 306)">
-    <rect width="248" height="34" rx="17" fill="#0f172a" stroke="#334155"/>
-    <circle cx="20" cy="17" r="6" fill="#facc15" class="pulse"/>
-    <text x="38" y="22" class="mono">Web Dev</text>
-    <text x="118" y="22" class="tiny">+</text>
-    <text x="138" y="22" class="mono">Analytics</text>
+  <g class="pulse">
+    <circle cx="292" cy="258" r="5" fill="#a78bfa"/>
+    <text x="308" y="263" class="mono">Python</text>
+  </g>
+  <g class="pulse">
+    <circle cx="486" cy="292" r="5" fill="#fb7185"/>
+    <text x="502" y="297" class="mono">AI/ML</text>
+  </g>
+  <g class="pulse">
+    <circle cx="686" cy="126" r="5" fill="#facc15"/>
+    <text x="702" y="131" class="mono">Web Development</text>
+  </g>
+  <g class="pulse">
+    <circle cx="750" cy="268" r="5" fill="#34d399"/>
+    <text x="766" y="273" class="mono">Analytics</text>
   </g>
 </svg>
