@@ -1,6 +1,6 @@
 <svg width="900" height="260" viewBox="0 0 900 260" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
   <title id="title">Mini coding animation</title>
-  <desc id="desc">Animated code editor card with moving cursor, floating machine learning nodes, and progress bars.</desc>
+  <desc id="desc">Animated code editor card with moving cursor, floating data science nodes, and progress bars.</desc>
   <style>
     .panel { fill: #0f172a; }
     .bar { fill: #1e293b; }
@@ -58,10 +58,10 @@
   <circle cx="98" cy="56" r="6" class="dot-yellow"/>
   <circle cx="118" cy="56" r="6" class="dot-green"/>
 
-  <text x="78" y="108" class="text"><tspan class="pink">def</tspan> build_future(<tspan class="blue">skills</tspan>):</text>
-  <text x="106" y="138" class="text muted">model = train(<tspan class="green">"AI/ML"</tspan>)</text>
-  <text x="106" y="168" class="text muted">app = React + Django + Flask</text>
-  <text x="106" y="198" class="text"><tspan class="orange">return</tspan> useful_products<tspan class="cursor">_</tspan></text>
+  <text x="78" y="108" class="text"><tspan class="pink">def</tspan> turn_data_into(<tspan class="blue">impact</tspan>):</text>
+  <text x="106" y="138" class="text muted">insights = analyze(<tspan class="green">"data"</tspan>)</text>
+  <text x="106" y="168" class="text muted">model = ML + DeepLearning + BI</text>
+  <text x="106" y="198" class="text"><tspan class="orange">return</tspan> smarter_decisions<tspan class="cursor">_</tspan></text>
 
   <rect x="150" y="206" width="240" height="8" rx="4" fill="#334155"/>
   <rect x="150" y="206" width="240" height="8" rx="4" class="blue progress-a"/>
@@ -91,5 +91,5 @@
     <circle cx="824" cy="82" r="5" fill="#fb923c"/>
   </g>
 
-  <text x="642" y="222" font-family="Consolas, Monaco, monospace" font-size="18" font-weight="700" fill="#e5e7eb">Python | AI/ML | Web</text>
+  <text x="620" y="222" font-family="Consolas, Monaco, monospace" font-size="18" font-weight="700" fill="#e5e7eb">Data Science | ML | BI</text>
 </svg>
