@@ -1,6 +1,5 @@
 <svg width="1000" height="360" viewBox="0 0 1000 360" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
   <title id="title">Fun GitHub activity track</title>
-  <desc id="desc">A playful animated track showing GitHub activity as a journey through commits, projects, learning, and shipping.</desc>
   <defs>
     <linearGradient id="bg" x1="0" y1="0" x2="1000" y2="360" gradientUnits="userSpaceOnUse">
       <stop stop-color="#020617"/>
@@ -61,7 +60,6 @@
   <circle cx="506" cy="190" r="160" fill="#8b5cf6" opacity=".07"/>
 
   <text x="54" y="64" class="title">GitHub Activity Track</text>
-  <text x="56" y="94" class="sub">a fun little route through commits, experiments, dashboards and shipped ideas</text>
 
   <path d="M112 222 C190 116 284 116 358 206 C426 288 520 292 584 202 C660 96 764 110 828 198 C852 230 874 236 894 218"
         stroke="#1e293b" stroke-width="32" stroke-linecap="round"/>
@@ -78,22 +76,18 @@
   <g class="bounce">
     <circle cx="112" cy="222" r="18" fill="#020617" stroke="#22d3ee" stroke-width="5"/>
     <text x="74" y="274" class="label">Commits</text>
-    <text x="78" y="294" class="tiny">daily progress</text>
   </g>
   <g class="bounce two">
     <circle cx="358" cy="206" r="18" fill="#020617" stroke="#a78bfa" stroke-width="5"/>
     <text x="314" y="154" class="label">Projects</text>
-    <text x="300" y="174" class="tiny">ideas to apps</text>
   </g>
   <g class="bounce three">
     <circle cx="584" cy="202" r="18" fill="#020617" stroke="#fb7185" stroke-width="5"/>
     <text x="540" y="264" class="label">Learning</text>
-    <text x="524" y="284" class="tiny">ML, BI, web</text>
   </g>
   <g class="bounce two">
     <circle cx="828" cy="198" r="18" fill="#020617" stroke="#facc15" stroke-width="5"/>
-    <text x="790" y="146" class="label">Shipping</text>
-    <text x="770" y="166" class="tiny">polished work</text>
+    <text x="790" y="146" class="label">Improving</text>
   </g>
 
   <g transform="translate(58 306)">
