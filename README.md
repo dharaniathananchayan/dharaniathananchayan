@@ -29,13 +29,13 @@ I'm a developer who enjoys building intelligent, useful software with a mix of A
 
 ## GitHub Snapshot
 
-![GitHub Stats](https://github-readme-stats.vercel.app/api?username=YOUR_GITHUB_USERNAME&show_icons=true&theme=tokyonight)
+![GitHub Stats](https://github-readme-stats.vercel.app/api?username=dharaniathananchayan&show_icons=true&theme=tokyonight)
 
-![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=YOUR_GITHUB_USERNAME&layout=compact&theme=tokyonight)
+![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=dharaniathananchayan&layout=compact&theme=tokyonight)
 
 ## Connect
 
-- GitHub: `https://github.com/YOUR_GITHUB_USERNAME`
+- GitHub: `https://github.com/dharaniathananchayan`
 - LinkedIn: `https://linkedin.com/in/YOUR_LINKEDIN_USERNAME`
 - Email: `your.email@example.com`
 
