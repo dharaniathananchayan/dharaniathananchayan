@@ -41,12 +41,7 @@ I'm a data-focused developer who turns raw information into clear insights, smar
 ## GitHub Snapshot
 
 <p align="center">
-  <img width="49%" src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=dharaniathananchayan&theme=tokyonight" alt="GitHub Stats" />
-  <img width="49%" src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=dharaniathananchayan&theme=tokyonight" alt="Top Languages" />
-</p>
-
-<p align="center">
-  <img width="98%" src="https://github-readme-activity-graph.vercel.app/graph?username=dharaniathananchayan&theme=tokyo-night&hide_border=true&radius=8" alt="GitHub Activity Graph" />
+  <img width="98%" src="./assets/github-snapshot.svg" alt="Custom GitHub snapshot dashboard" />
 </p>
 
 ## Connect
