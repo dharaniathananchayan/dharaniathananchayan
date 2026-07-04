@@ -35,10 +35,10 @@ I am a data-focused developer specializing in translating complex, raw informati
 
 ---
 
-### 📊 Model Pipeline & Telemetry Monitor
+### 📊 Tower of Hanoi Visual Solver
 
 <p align="center">
-  <img width="100%" src="./assets/github-activity-track.svg" alt="Neural Network Training Monitor" />
+  <img width="100%" src="./assets/github-activity-track.svg" alt="Tower of Hanoi Recursive Solver" />
 </p>
 
 ---
