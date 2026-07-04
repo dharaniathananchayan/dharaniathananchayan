@@ -2,111 +2,208 @@
   <title id="title">Fun activity track</title>
   <desc id="desc">A playful animated track showing activity through commits, projects, learning, and innovative work.</desc>
   <defs>
+    <!-- Background Gradient -->
     <linearGradient id="bg" x1="0" y1="0" x2="1000" y2="360" gradientUnits="userSpaceOnUse">
       <stop stop-color="#020617"/>
-      <stop offset=".52" stop-color="#111827"/>
-      <stop offset="1" stop-color="#07111f"/>
+      <stop offset="0.5" stop-color="#070a13"/>
+      <stop offset="1" stop-color="#0f172a"/>
     </linearGradient>
+
+    <!-- Track Gradient (Futuristic Neon Colors) -->
     <linearGradient id="track" x1="112" y1="0" x2="894" y2="0" gradientUnits="userSpaceOnUse">
       <stop stop-color="#22d3ee"/>
-      <stop offset=".42" stop-color="#a78bfa"/>
-      <stop offset=".72" stop-color="#fb7185"/>
-      <stop offset="1" stop-color="#facc15"/>
+      <stop offset="0.35" stop-color="#818cf8"/>
+      <stop offset="0.7" stop-color="#f472b6"/>
+      <stop offset="1" stop-color="#fb923c"/>
     </linearGradient>
-    <filter id="softGlow" x="-40%" y="-40%" width="180%" height="180%">
-      <feGaussianBlur stdDeviation="7" result="blur"/>
-      <feColorMatrix in="blur" type="matrix" values="0 0 0 0 0.25 0 0 0 0 0.75 0 0 0 0 1 0 0 0 .45 0"/>
-      <feBlend in="SourceGraphic"/>
+
+    <!-- Comet Tails -->
+    <linearGradient id="tailGrad1" x1="-30" y1="0" x2="4" y2="0" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#22d3ee" stop-opacity="0"/>
+      <stop offset="50%" stop-color="#22d3ee" stop-opacity="0.3"/>
+      <stop offset="100%" stop-color="#22d3ee" stop-opacity="0.9"/>
+    </linearGradient>
+    <linearGradient id="tailGrad2" x1="-30" y1="0" x2="4" y2="0" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#f472b6" stop-opacity="0"/>
+      <stop offset="50%" stop-color="#f472b6" stop-opacity="0.3"/>
+      <stop offset="100%" stop-color="#f472b6" stop-opacity="0.9"/>
+    </linearGradient>
+
+    <!-- Filters -->
+    <filter id="softGlow" x="-30%" y="-30%" width="160%" height="160%">
+      <feGaussianBlur stdDeviation="8" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
     </filter>
+
     <style>
-      .title { font: 800 34px "Inter", "Segoe UI", Arial, sans-serif; fill: #f8fafc; }
-      .sub { font: 500 15px "Inter", "Segoe UI", Arial, sans-serif; fill: #a5b4fc; }
-      .label { font: 800 15px "Inter", "Segoe UI", Arial, sans-serif; fill: #f8fafc; }
-      .tiny { font: 600 12px "Inter", "Segoe UI", Arial, sans-serif; fill: #94a3b8; }
-      .mono { font: 800 14px "Cascadia Code", "Fira Code", Consolas, monospace; fill: #dbeafe; }
+      .title { font: 800 32px "Outfit", "Inter", sans-serif; fill: #f8fafc; letter-spacing: -0.5px; }
+      .sub { font: 500 14px "Inter", sans-serif; fill: #94a3b8; }
+      .label { font: 800 15px "Inter", sans-serif; fill: #f1f5f9; text-shadow: 0 2px 4px rgba(0,0,0,0.5); }
+      .mono { font: 800 13px "Cascadia Code", "Fira Code", monospace; fill: #e2e8f0; }
+      
+      /* Star Glow */
+      .star {
+        animation: star-glow 4s ease-in-out infinite alternate;
+      }
+      @keyframes star-glow {
+        0% { opacity: 0.15; transform: scale(0.8); }
+        100% { opacity: 0.85; transform: scale(1.3); }
+      }
+
+      /* Track Dash Animation */
       .dash {
-        stroke-dasharray: 12 16;
-        animation: dash 14s linear infinite;
+        stroke-dasharray: 10 15;
+        animation: dash 12s linear infinite;
       }
-      .runner {
-        animation: run 7s ease-in-out infinite;
-        offset-path: path("M112 222 C190 116 284 116 358 206 C426 288 520 292 584 202 C660 96 764 110 828 198 C852 230 874 236 894 218");
-        offset-rotate: 0deg;
-      }
-      .bounce { animation: bounce 2.8s ease-in-out infinite; transform-origin: center; }
-      .bounce.two { animation-delay: .35s; }
-      .bounce.three { animation-delay: .7s; }
-      .pulse { animation: pulse 2.2s ease-in-out infinite; transform-origin: center; }
       @keyframes dash {
-        to { stroke-dashoffset: -280; }
+        to { stroke-dashoffset: -250; }
+      }
+
+      /* Comet Runners */
+      .runner {
+        animation: run 8s linear infinite;
+        offset-path: path("M112 222 C190 116 284 116 358 206 C426 288 520 292 584 202 C660 96 764 110 828 198 C852 230 874 236 894 218");
+      }
+      .runner-delayed {
+        animation-delay: -4s;
       }
       @keyframes run {
-        0%, 100% { offset-distance: 0%; }
-        50% { offset-distance: 100%; }
+        0% { offset-distance: 0%; }
+        100% { offset-distance: 100%; }
       }
-      @keyframes bounce {
+
+      /* Bouncing Nodes */
+      .bounce-node { transform-box: fill-box; transform-origin: center; }
+      .node-1 { animation: float-node 4s ease-in-out infinite; }
+      .node-2 { animation: float-node 4.5s ease-in-out infinite; animation-delay: -1s; }
+      .node-3 { animation: float-node 4.2s ease-in-out infinite; animation-delay: -2s; }
+      .node-4 { animation: float-node 4.8s ease-in-out infinite; animation-delay: -3s; }
+
+      @keyframes float-node {
         0%, 100% { transform: translateY(0); }
-        50% { transform: translateY(-8px); }
+        50% { transform: translateY(-5px); }
       }
-      @keyframes pulse {
-        0%, 100% { opacity: .75; transform: scale(1); }
-        50% { opacity: 1; transform: scale(1.08); }
+
+      /* floating tags */
+      .pulse-item {
+        animation: float-tag 3.8s ease-in-out infinite;
+        transform-box: fill-box;
+        transform-origin: center;
+      }
+      .tag-1 { animation-delay: -0.5s; }
+      .tag-2 { animation-delay: -1.5s; }
+      .tag-3 { animation-delay: -2.5s; }
+      .tag-4 { animation-delay: -1.0s; }
+      .tag-5 { animation-delay: -3.0s; }
+
+      @keyframes float-tag {
+        0%, 100% { transform: translateY(0) scale(0.97); opacity: 0.8; }
+        50% { transform: translateY(-4px) scale(1.03); opacity: 1; }
       }
     </style>
   </defs>
 
+  <!-- Background Canvas -->
   <rect width="1000" height="360" rx="28" fill="url(#bg)"/>
-  <circle cx="890" cy="58" r="90" fill="#38bdf8" opacity=".10"/>
-  <circle cx="120" cy="310" r="105" fill="#34d399" opacity=".08"/>
-  <circle cx="506" cy="190" r="160" fill="#8b5cf6" opacity=".07"/>
 
+  <!-- Canvas Glows -->
+  <circle cx="890" cy="58" r="110" fill="#38bdf8" opacity="0.08" filter="url(#softGlow)"/>
+  <circle cx="120" cy="310" r="130" fill="#34d399" opacity="0.06" filter="url(#softGlow)"/>
+  <circle cx="506" cy="190" r="180" fill="#8b5cf6" opacity="0.05" filter="url(#softGlow)"/>
+
+  <!-- Starry Sky Background -->
+  <g>
+    <circle cx="200" cy="80" r="1.5" fill="#22d3ee" class="star" style="animation-delay: 0s;"/>
+    <circle cx="450" cy="60" r="1" fill="#a78bfa" class="star" style="animation-delay: 1.5s;"/>
+    <circle cx="780" cy="75" r="2" fill="#fb7185" class="star" style="animation-delay: 3s;"/>
+    <circle cx="910" cy="270" r="1.5" fill="#fb923c" class="star" style="animation-delay: 0.5s;"/>
+    <circle cx="150" cy="290" r="2" fill="#34d399" class="star" style="animation-delay: 2.2s;"/>
+    <circle cx="650" cy="310" r="1" fill="#38bdf8" class="star" style="animation-delay: 3.7s;"/>
+    <circle cx="320" cy="320" r="1.5" fill="#e2e8f0" class="star" style="animation-delay: 1.1s;"/>
+    <circle cx="940" cy="140" r="2" fill="#a78bfa" class="star" style="animation-delay: 2.7s;"/>
+    <circle cx="80" cy="130" r="1.5" fill="#fb923c" class="star" style="animation-delay: 4.2s;"/>
+  </g>
+
+  <!-- Dashboard Title -->
+  <text x="52" y="58" class="title">Development Cycle</text>
+  <text x="52" y="82" class="sub">continuous integration • data pipeline orchestration • model training</text>
+
+  <!-- Track Base Tube -->
   <path d="M112 222 C190 116 284 116 358 206 C426 288 520 292 584 202 C660 96 764 110 828 198 C852 230 874 236 894 218"
-        stroke="#1e293b" stroke-width="32" stroke-linecap="round"/>
+        stroke="#111827" stroke-width="26" stroke-linecap="round"/>
   <path d="M112 222 C190 116 284 116 358 206 C426 288 520 292 584 202 C660 96 764 110 828 198 C852 230 874 236 894 218"
-        stroke="url(#track)" stroke-width="10" stroke-linecap="round" filter="url(#softGlow)"/>
+        stroke="#1e293b" stroke-width="16" stroke-linecap="round"/>
+  <!-- Glowing neon track line -->
+  <path d="M112 222 C190 116 284 116 358 206 C426 288 520 292 584 202 C660 96 764 110 828 198 C852 230 874 236 894 218"
+        stroke="url(#track)" stroke-width="6" stroke-linecap="round" filter="url(#softGlow)"/>
+  <!-- Dotted flow overlay -->
   <path class="dash" d="M112 222 C190 116 284 116 358 206 C426 288 520 292 584 202 C660 96 764 110 828 198 C852 230 874 236 894 218"
-        stroke="#f8fafc" stroke-width="3" stroke-linecap="round" opacity=".7"/>
+        stroke="#ffffff" stroke-width="2" stroke-linecap="round" opacity="0.6"/>
 
-  <g class="runner">
-    <circle cx="0" cy="0" r="21" fill="#020617" stroke="#facc15" stroke-width="5"/>
-    <text x="-10" y="6" font-family="Segoe UI, Arial, sans-serif" font-size="18" font-weight="900" fill="#facc15">&gt;</text>
-  </g>
-
-  <g class="bounce">
-    <circle cx="112" cy="222" r="18" fill="#020617" stroke="#22d3ee" stroke-width="5"/>
-    <text x="76" y="274" class="label">Commits</text>
-  </g>
-  <g class="bounce two">
-    <circle cx="358" cy="206" r="18" fill="#020617" stroke="#a78bfa" stroke-width="5"/>
-    <text x="320" y="154" class="label">Projects</text>
-  </g>
-  <g class="bounce three">
-    <circle cx="584" cy="202" r="18" fill="#020617" stroke="#fb7185" stroke-width="5"/>
-    <text x="548" y="264" class="label">Learning</text>
-  </g>
-  <g class="bounce two">
-    <circle cx="828" cy="198" r="18" fill="#020617" stroke="#facc15" stroke-width="5"/>
-    <text x="786" y="146" class="label">Innovative</text>
+  <!-- Comet Runner 1 (Cyan) -->
+  <g class="runner" style="offset-rotate: auto;">
+    <path d="M-30,0 L0,5 L5,0 L0,-5 Z" fill="url(#tailGrad1)"/>
+    <circle cx="2" cy="0" r="7" fill="#22d3ee" filter="url(#softGlow)"/>
+    <circle cx="2" cy="0" r="3" fill="#ffffff"/>
   </g>
 
-  <g class="pulse">
-    <circle cx="198" cy="138" r="5" fill="#22d3ee"/>
-    <text x="214" y="143" class="mono">Data Science</text>
+  <!-- Comet Runner 2 (Rose - Delayed by 4s) -->
+  <g class="runner runner-delayed" style="offset-rotate: auto;">
+    <path d="M-30,0 L0,5 L5,0 L0,-5 Z" fill="url(#tailGrad2)"/>
+    <circle cx="2" cy="0" r="7" fill="#f472b6" filter="url(#softGlow)"/>
+    <circle cx="2" cy="0" r="3" fill="#ffffff"/>
   </g>
-  <g class="pulse">
-    <circle cx="292" cy="258" r="5" fill="#a78bfa"/>
-    <text x="308" y="263" class="mono">Python</text>
+
+  <!-- Node 1: Commits -->
+  <g class="bounce-node node-1">
+    <circle cx="112" cy="222" r="18" fill="#0b0f19" stroke="#22d3ee" stroke-width="4" filter="url(#softGlow)"/>
+    <circle cx="112" cy="222" r="6" fill="#22d3ee"/>
+    <text x="112" y="268" class="label" text-anchor="middle">Commits</text>
   </g>
-  <g class="pulse">
-    <circle cx="486" cy="292" r="5" fill="#fb7185"/>
-    <text x="502" y="297" class="mono">AI/ML</text>
+
+  <!-- Node 2: Projects -->
+  <g class="bounce-node node-2">
+    <circle cx="358" cy="206" r="18" fill="#0b0f19" stroke="#818cf8" stroke-width="4" filter="url(#softGlow)"/>
+    <circle cx="358" cy="206" r="6" fill="#818cf8"/>
+    <text x="358" y="152" class="label" text-anchor="middle">Projects</text>
   </g>
-  <g class="pulse">
-    <circle cx="686" cy="126" r="5" fill="#facc15"/>
-    <text x="702" y="131" class="mono">Web Development</text>
+
+  <!-- Node 3: Learning -->
+  <g class="bounce-node node-3">
+    <circle cx="584" cy="202" r="18" fill="#0b0f19" stroke="#f472b6" stroke-width="4" filter="url(#softGlow)"/>
+    <circle cx="584" cy="202" r="6" fill="#f472b6"/>
+    <text x="584" y="248" class="label" text-anchor="middle">Learning</text>
   </g>
-  <g class="pulse">
-    <circle cx="750" cy="268" r="5" fill="#34d399"/>
-    <text x="766" y="273" class="mono">Analytics</text>
+
+  <!-- Node 4: Innovative -->
+  <g class="bounce-node node-4">
+    <circle cx="828" cy="198" r="18" fill="#0b0f19" stroke="#fb923c" stroke-width="4" filter="url(#softGlow)"/>
+    <circle cx="828" cy="198" r="6" fill="#fb923c"/>
+    <text x="828" y="144" class="label" text-anchor="middle">Innovative</text>
+  </g>
+
+  <!-- Floating Tags -->
+  <g class="pulse-item tag-1">
+    <circle cx="198" cy="138" r="4.5" fill="#22d3ee"/>
+    <text x="212" y="142" class="mono">Data Science</text>
+  </g>
+  <g class="pulse-item tag-2">
+    <circle cx="282" cy="258" r="4.5" fill="#818cf8"/>
+    <text x="296" y="262" class="mono">Python</text>
+  </g>
+  <g class="pulse-item tag-3">
+    <circle cx="486" cy="292" r="4.5" fill="#f472b6"/>
+    <text x="500" y="296" class="mono">AI/ML</text>
+  </g>
+  <g class="pulse-item tag-4">
+    <circle cx="686" cy="126" r="4.5" fill="#fb923c"/>
+    <text x="700" y="130" class="mono">Web Development</text>
+  </g>
+  <g class="pulse-item tag-5">
+    <circle cx="750" cy="268" r="4.5" fill="#34d399"/>
+    <text x="764" y="272" class="mono">Analytics</text>
   </g>
 </svg>
