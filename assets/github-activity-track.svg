@@ -1,37 +1,27 @@
 <svg width="1000" height="360" viewBox="0 0 1000 360" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
-  <title id="title">Fun activity track</title>
-  <desc id="desc">A playful animated track showing activity through commits, projects, learning, and innovative work.</desc>
+  <title id="title">Neural Network Model Training Monitor</title>
+  <desc id="desc">Animated dashboard showing a deep neural network training in real-time, plotting loss and accuracy curves, and reporting telemetry logs in a terminal console.</desc>
   <defs>
-    <!-- Background Gradient -->
+    <!-- Background Card Gradient -->
     <linearGradient id="bg" x1="0" y1="0" x2="1000" y2="360" gradientUnits="userSpaceOnUse">
       <stop stop-color="#020617"/>
-      <stop offset="0.5" stop-color="#070a13"/>
-      <stop offset="1" stop-color="#0f172a"/>
+      <stop offset="0.5" stop-color="#050814"/>
+      <stop offset="1" stop-color="#0a0f24"/>
     </linearGradient>
 
-    <!-- Track Gradient (Futuristic Neon Colors) -->
-    <linearGradient id="track" x1="112" y1="0" x2="894" y2="0" gradientUnits="userSpaceOnUse">
-      <stop stop-color="#22d3ee"/>
-      <stop offset="0.35" stop-color="#818cf8"/>
-      <stop offset="0.7" stop-color="#f472b6"/>
-      <stop offset="1" stop-color="#fb923c"/>
-    </linearGradient>
+    <!-- Mesh glows behind panels -->
+    <radialGradient id="net-glow" cx="240" cy="180" r="200" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#8b5cf6" stop-opacity="0.15"/>
+      <stop offset="100%" stop-color="#8b5cf6" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="chart-glow" cx="720" cy="110" r="220" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#22d3ee" stop-opacity="0.12"/>
+      <stop offset="100%" stop-color="#22d3ee" stop-opacity="0"/>
+    </radialGradient>
 
-    <!-- Comet Tails -->
-    <linearGradient id="tailGrad1" x1="-30" y1="0" x2="4" y2="0" gradientUnits="userSpaceOnUse">
-      <stop stop-color="#22d3ee" stop-opacity="0"/>
-      <stop offset="50%" stop-color="#22d3ee" stop-opacity="0.3"/>
-      <stop offset="100%" stop-color="#22d3ee" stop-opacity="0.9"/>
-    </linearGradient>
-    <linearGradient id="tailGrad2" x1="-30" y1="0" x2="4" y2="0" gradientUnits="userSpaceOnUse">
-      <stop stop-color="#f472b6" stop-opacity="0"/>
-      <stop offset="50%" stop-color="#f472b6" stop-opacity="0.3"/>
-      <stop offset="100%" stop-color="#f472b6" stop-opacity="0.9"/>
-    </linearGradient>
-
-    <!-- Filters -->
+    <!-- Soft Glow Filter for nodes -->
     <filter id="softGlow" x="-30%" y="-30%" width="160%" height="160%">
-      <feGaussianBlur stdDeviation="8" result="blur"/>
+      <feGaussianBlur stdDeviation="6" result="blur"/>
       <feMerge>
         <feMergeNode in="blur"/>
         <feMergeNode in="SourceGraphic"/>
@@ -39,171 +29,256 @@
     </filter>
 
     <style>
-      .title { font: 800 32px "Outfit", "Inter", sans-serif; fill: #f8fafc; letter-spacing: -0.5px; }
-      .sub { font: 500 14px "Inter", sans-serif; fill: #94a3b8; }
-      .label { font: 800 15px "Inter", sans-serif; fill: #f1f5f9; text-shadow: 0 2px 4px rgba(0,0,0,0.5); }
-      .mono { font: 800 13px "Cascadia Code", "Fira Code", monospace; fill: #e2e8f0; }
-      
-      /* Star Glow */
-      .star {
-        animation: star-glow 4s ease-in-out infinite alternate;
+      .dash-grid { stroke: #1e293b; stroke-width: 1; stroke-dasharray: 4 6; }
+      .axis-label { font: 600 10px "Inter", sans-serif; fill: #475569; }
+      .legend-text { font: 700 11px "Inter", sans-serif; }
+      .console-header { font: 800 11px "Cascadia Code", "Fira Code", monospace; fill: #475569; }
+      .console-text { font: 600 12px "Cascadia Code", "Fira Code", "JetBrains Mono", monospace; }
+      .node-caption { font: 800 9px "Inter", sans-serif; fill: #475569; letter-spacing: 1px; }
+
+      /* Synapse Flow Animations */
+      .synapse-forward {
+        stroke-dasharray: 5 15;
+        animation: flow-fwd 4s linear infinite;
       }
-      @keyframes star-glow {
-        0% { opacity: 0.15; transform: scale(0.8); }
-        100% { opacity: 0.85; transform: scale(1.3); }
+      .synapse-backward {
+        stroke-dasharray: 5 15;
+        animation: flow-bkwd 4s linear infinite;
+      }
+      @keyframes flow-fwd {
+        to { stroke-dashoffset: -60; }
+      }
+      @keyframes flow-bkwd {
+        to { stroke-dashoffset: 60; }
       }
 
-      /* Track Dash Animation */
-      .dash {
-        stroke-dasharray: 10 15;
-        animation: dash 12s linear infinite;
-      }
-      @keyframes dash {
-        to { stroke-dashoffset: -250; }
-      }
-
-      /* Comet Runners */
-      .runner {
-        animation: run 8s linear infinite;
-        offset-path: path("M112 222 C190 116 284 116 358 206 C426 288 520 292 584 202 C660 96 764 110 828 198 C852 230 874 236 894 218");
-      }
-      .runner-delayed {
-        animation-delay: -4s;
-      }
-      @keyframes run {
-        0% { offset-distance: 0%; }
-        100% { offset-distance: 100%; }
-      }
-
-      /* Bouncing Nodes */
-      .bounce-node { transform-box: fill-box; transform-origin: center; }
-      .node-1 { animation: float-node 4s ease-in-out infinite; }
-      .node-2 { animation: float-node 4.5s ease-in-out infinite; animation-delay: -1s; }
-      .node-3 { animation: float-node 4.2s ease-in-out infinite; animation-delay: -2s; }
-      .node-4 { animation: float-node 4.8s ease-in-out infinite; animation-delay: -3s; }
-
-      @keyframes float-node {
-        0%, 100% { transform: translateY(0); }
-        50% { transform: translateY(-5px); }
-      }
-
-      /* floating tags */
-      .pulse-item {
-        animation: float-tag 3.8s ease-in-out infinite;
+      /* Neuron Pulses */
+      .node-neuron {
+        animation: pulse-neuron 2s ease-in-out infinite alternate;
         transform-box: fill-box;
         transform-origin: center;
       }
-      .tag-1 { animation-delay: -0.5s; }
-      .tag-2 { animation-delay: -1.5s; }
-      .tag-3 { animation-delay: -2.5s; }
-      .tag-4 { animation-delay: -1.0s; }
-      .tag-5 { animation-delay: -3.0s; }
+      .node-input { color: #c084fc; stroke: #c084fc; fill: #0b0f19; stroke-width: 2.5; }
+      .node-hidden { color: #38bdf8; stroke: #38bdf8; fill: #0b0f19; stroke-width: 2.5; }
+      .node-output { color: #fb923c; stroke: #fb923c; fill: #0b0f19; stroke-width: 2.5; }
+      
+      @keyframes pulse-neuron {
+        0% { transform: scale(0.92); filter: drop-shadow(0 0 1px currentColor); }
+        100% { transform: scale(1.08); filter: drop-shadow(0 0 6px currentColor); }
+      }
 
-      @keyframes float-tag {
-        0%, 100% { transform: translateY(0) scale(0.97); opacity: 0.8; }
-        50% { transform: translateY(-4px) scale(1.03); opacity: 1; }
+      /* Self-Drawing Curves */
+      .plot-curve {
+        stroke-dasharray: 450;
+        stroke-dashoffset: 450;
+        animation: draw-plot 10s cubic-bezier(0.4, 0, 0.2, 1) infinite;
+      }
+      @keyframes draw-plot {
+        0%, 5% { stroke-dashoffset: 450; }
+        75%, 90% { stroke-dashoffset: 0; }
+        93%, 100% { stroke-dashoffset: 450; }
+      }
+
+      /* Curve Targets */
+      .target-dot {
+        animation: target-glow 10s infinite;
+        transform-box: fill-box;
+        transform-origin: center;
+      }
+      @keyframes target-glow {
+        0%, 5% { opacity: 0; transform: scale(0.5); }
+        75%, 90% { opacity: 1; transform: scale(1.3); }
+        93%, 100% { opacity: 0; transform: scale(0.5); }
+      }
+
+      /* Scrolling/Fading Terminal Logs */
+      .log-line {
+        opacity: 0;
+        transform: translateY(3px);
+      }
+      .log-1 { animation: show-l1 10s infinite; fill: #a78bfa; }
+      .log-2 { animation: show-l2 10s infinite; fill: #38bdf8; }
+      .log-3 { animation: show-l3 10s infinite; fill: #38bdf8; }
+      .log-4 { animation: show-l4 10s infinite; fill: #f472b6; }
+      .log-5 { animation: show-l5 10s infinite; fill: #34d399; }
+
+      @keyframes show-l1 {
+        0%, 3% { opacity: 0; transform: translateY(3px); }
+        5%, 90% { opacity: 1; transform: translateY(0); }
+        93%, 100% { opacity: 0; }
+      }
+      @keyframes show-l2 {
+        0%, 18% { opacity: 0; transform: translateY(3px); }
+        20%, 90% { opacity: 1; transform: translateY(0); }
+        93%, 100% { opacity: 0; }
+      }
+      @keyframes show-l3 {
+        0%, 38% { opacity: 0; transform: translateY(3px); }
+        40%, 90% { opacity: 1; transform: translateY(0); }
+        93%, 100% { opacity: 0; }
+      }
+      @keyframes show-l4 {
+        0%, 58% { opacity: 0; transform: translateY(3px); }
+        60%, 90% { opacity: 1; transform: translateY(0); }
+        93%, 100% { opacity: 0; }
+      }
+      @keyframes show-l5 {
+        0%, 75% { opacity: 0; transform: translateY(3px); }
+        77%, 90% { opacity: 1; transform: translateY(0); }
+        93%, 100% { opacity: 0; }
       }
     </style>
   </defs>
 
-  <!-- Background Canvas -->
-  <rect width="1000" height="360" rx="28" fill="url(#bg)"/>
+  <!-- Background Base Card -->
+  <rect width="1000" height="360" rx="24" fill="url(#bg)" stroke="#1e293b" stroke-width="1.5"/>
 
-  <!-- Canvas Glows -->
-  <circle cx="890" cy="58" r="110" fill="#38bdf8" opacity="0.08" filter="url(#softGlow)"/>
-  <circle cx="120" cy="310" r="130" fill="#34d399" opacity="0.06" filter="url(#softGlow)"/>
-  <circle cx="506" cy="190" r="180" fill="#8b5cf6" opacity="0.05" filter="url(#softGlow)"/>
+  <!-- Radial Mesh Spotlights -->
+  <rect width="1000" height="360" rx="24" fill="url(#net-glow)"/>
+  <rect width="1000" height="360" rx="24" fill="url(#chart-glow)"/>
 
-  <!-- Starry Sky Background -->
-  <g>
-    <circle cx="200" cy="80" r="1.5" fill="#22d3ee" class="star" style="animation-delay: 0s;"/>
-    <circle cx="450" cy="60" r="1" fill="#a78bfa" class="star" style="animation-delay: 1.5s;"/>
-    <circle cx="780" cy="75" r="2" fill="#fb7185" class="star" style="animation-delay: 3s;"/>
-    <circle cx="910" cy="270" r="1.5" fill="#fb923c" class="star" style="animation-delay: 0.5s;"/>
-    <circle cx="150" cy="290" r="2" fill="#34d399" class="star" style="animation-delay: 2.2s;"/>
-    <circle cx="650" cy="310" r="1" fill="#38bdf8" class="star" style="animation-delay: 3.7s;"/>
-    <circle cx="320" cy="320" r="1.5" fill="#e2e8f0" class="star" style="animation-delay: 1.1s;"/>
-    <circle cx="940" cy="140" r="2" fill="#a78bfa" class="star" style="animation-delay: 2.7s;"/>
-    <circle cx="80" cy="130" r="1.5" fill="#fb923c" class="star" style="animation-delay: 4.2s;"/>
+  <!-- Left Header Titles -->
+  <text x="50" y="44" font-family="Outfit, Inter, sans-serif" font-size="18" font-weight="800" fill="#f8fafc" letter-spacing="-0.5px">Model Pipeline Engine</text>
+  <text x="50" y="60" font-family="Inter, sans-serif" font-size="11" font-weight="500" fill="#475569">Telemetry analysis, live parameter tuning, and weights distribution</text>
+
+  <!-- ================= LEFT PANEL: DEEP NEURAL NETWORK ================= -->
+  <!-- Layer Captions -->
+  <text x="90" y="90" class="node-caption" text-anchor="middle">INPUT</text>
+  <text x="240" y="55" class="node-caption" text-anchor="middle">HIDDEN REPRESENTATIONS</text>
+  <text x="390" y="125" class="node-caption" text-anchor="middle">OUTPUT</text>
+
+  <!-- Synapses (Static background lines) -->
+  <g stroke="#1e293b" stroke-width="1" opacity="0.35">
+    <!-- L1 -> L2 -->
+    <line x1="90" y1="130" x2="190" y2="85"/>
+    <line x1="90" y1="130" x2="190" y2="155"/>
+    <line x1="90" y1="130" x2="190" y2="225"/>
+    <line x1="90" y1="200" x2="190" y2="85"/>
+    <line x1="90" y1="200" x2="190" y2="155"/>
+    <line x1="90" y1="200" x2="190" y2="225"/>
+    <line x1="90" y1="200" x2="190" y2="295"/>
+    <line x1="90" y1="270" x2="190" y2="155"/>
+    <line x1="90" y1="270" x2="190" y2="225"/>
+    <line x1="90" y1="270" x2="190" y2="295"/>
+
+    <!-- L2 -> L3 -->
+    <line x1="190" y1="85" x2="290" y2="85"/>
+    <line x1="190" y1="85" x2="290" y2="155"/>
+    <line x1="190" y1="85" x2="290" y2="225"/>
+    <line x1="190" y1="155" x2="290" y2="85"/>
+    <line x1="190" y1="155" x2="290" y2="155"/>
+    <line x1="190" y1="155" x2="290" y2="225"/>
+    <line x1="190" y1="155" x2="290" y2="295"/>
+    <line x1="190" y1="225" x2="290" y2="85"/>
+    <line x1="190" y1="225" x2="290" y2="155"/>
+    <line x1="190" y1="225" x2="290" y2="225"/>
+    <line x1="190" y1="225" x2="290" y2="295"/>
+    <line x1="190" y1="295" x2="290" y2="155"/>
+    <line x1="190" y1="295" x2="290" y2="225"/>
+    <line x1="190" y1="295" x2="290" y2="295"/>
+
+    <!-- L3 -> L4 -->
+    <line x1="290" y1="85" x2="390" y2="165"/>
+    <line x1="290" y1="155" x2="390" y2="165"/>
+    <line x1="290" y1="155" x2="390" y2="235"/>
+    <line x1="290" y1="225" x2="390" y2="165"/>
+    <line x1="290" y1="225" x2="390" y2="235"/>
+    <line x1="290" y1="295" x2="390" y2="235"/>
   </g>
 
-  <!-- Dashboard Title -->
-  <text x="52" y="58" class="title">Development Cycle</text>
-  <text x="52" y="82" class="sub">continuous integration • data pipeline orchestration • model training</text>
+  <!-- Glowing Synapse Pulses -->
+  <g stroke-width="1.5" stroke-linecap="round" opacity="0.8">
+    <!-- Forward propagation pulses (Cyan) -->
+    <line x1="90" y1="200" x2="190" y2="155" stroke="#22d3ee" class="synapse-forward"/>
+    <line x1="90" y1="270" x2="190" y2="225" stroke="#22d3ee" class="synapse-forward" style="animation-delay: -0.8s;"/>
+    <line x1="190" y1="85" x2="290" y2="155" stroke="#22d3ee" class="synapse-forward" style="animation-delay: -1.6s;"/>
+    <line x1="190" y1="225" x2="290" y2="225" stroke="#22d3ee" class="synapse-forward" style="animation-delay: -0.4s;"/>
+    <line x1="290" y1="155" x2="390" y2="165" stroke="#22d3ee" class="synapse-forward" style="animation-delay: -2.4s;"/>
+    <line x1="290" y1="295" x2="390" y2="235" stroke="#22d3ee" class="synapse-forward" style="animation-delay: -1.2s;"/>
 
-  <!-- Track Base Tube -->
-  <path d="M112 222 C190 116 284 116 358 206 C426 288 520 292 584 202 C660 96 764 110 828 198 C852 230 874 236 894 218"
-        stroke="#111827" stroke-width="26" stroke-linecap="round"/>
-  <path d="M112 222 C190 116 284 116 358 206 C426 288 520 292 584 202 C660 96 764 110 828 198 C852 230 874 236 894 218"
-        stroke="#1e293b" stroke-width="16" stroke-linecap="round"/>
-  <!-- Glowing neon track line -->
-  <path d="M112 222 C190 116 284 116 358 206 C426 288 520 292 584 202 C660 96 764 110 828 198 C852 230 874 236 894 218"
-        stroke="url(#track)" stroke-width="6" stroke-linecap="round" filter="url(#softGlow)"/>
-  <!-- Dotted flow overlay -->
-  <path class="dash" d="M112 222 C190 116 284 116 358 206 C426 288 520 292 584 202 C660 96 764 110 828 198 C852 230 874 236 894 218"
-        stroke="#ffffff" stroke-width="2" stroke-linecap="round" opacity="0.6"/>
-
-  <!-- Comet Runner 1 (Cyan) -->
-  <g class="runner" style="offset-rotate: auto;">
-    <path d="M-30,0 L0,5 L5,0 L0,-5 Z" fill="url(#tailGrad1)"/>
-    <circle cx="2" cy="0" r="7" fill="#22d3ee" filter="url(#softGlow)"/>
-    <circle cx="2" cy="0" r="3" fill="#ffffff"/>
+    <!-- Backward weight-tuning feedback pulses (Rose) -->
+    <line x1="390" y1="235" x2="290" y2="225" stroke="#f472b6" class="synapse-backward"/>
+    <line x1="290" y1="155" x2="190" y2="225" stroke="#f472b6" class="synapse-backward" style="animation-delay: -1.8s;"/>
+    <line x1="190" y1="155" x2="90" y2="130" stroke="#f472b6" class="synapse-backward" style="animation-delay: -0.9s;"/>
   </g>
 
-  <!-- Comet Runner 2 (Rose - Delayed by 4s) -->
-  <g class="runner runner-delayed" style="offset-rotate: auto;">
-    <path d="M-30,0 L0,5 L5,0 L0,-5 Z" fill="url(#tailGrad2)"/>
-    <circle cx="2" cy="0" r="7" fill="#f472b6" filter="url(#softGlow)"/>
-    <circle cx="2" cy="0" r="3" fill="#ffffff"/>
+  <!-- Neurons (Pulsing circles) -->
+  <!-- Layer 1: Input -->
+  <circle cx="90" cy="130" r="8" class="node-neuron node-input" filter="url(#softGlow)"/>
+  <circle cx="90" cy="200" r="8" class="node-neuron node-input" filter="url(#softGlow)"/>
+  <circle cx="90" cy="270" r="8" class="node-neuron node-input" filter="url(#softGlow)"/>
+
+  <!-- Layer 2: Hidden 1 -->
+  <circle cx="190" cy="85" r="8" class="node-neuron node-hidden" filter="url(#softGlow)"/>
+  <circle cx="190" cy="155" r="8" class="node-neuron node-hidden" filter="url(#softGlow)"/>
+  <circle cx="190" cy="225" r="8" class="node-neuron node-hidden" filter="url(#softGlow)"/>
+  <circle cx="190" cy="295" r="8" class="node-neuron node-hidden" filter="url(#softGlow)"/>
+
+  <!-- Layer 3: Hidden 2 -->
+  <circle cx="290" cy="85" r="8" class="node-neuron node-hidden" filter="url(#softGlow)"/>
+  <circle cx="290" cy="155" r="8" class="node-neuron node-hidden" filter="url(#softGlow)"/>
+  <circle cx="290" cy="225" r="8" class="node-neuron node-hidden" filter="url(#softGlow)"/>
+  <circle cx="290" cy="295" r="8" class="node-neuron node-hidden" filter="url(#softGlow)"/>
+
+  <!-- Layer 4: Output -->
+  <circle cx="390" cy="165" r="8" class="node-neuron node-output" filter="url(#softGlow)"/>
+  <circle cx="390" cy="235" r="8" class="node-neuron node-output" filter="url(#softGlow)"/>
+
+
+  <!-- ================= RIGHT PANEL: METRIC GRAPH & CONSOLE ================= -->
+  
+  <!-- Graph Plot Border & Grid -->
+  <rect x="500" y="40" width="440" height="135" rx="8" fill="#0b0f19" stroke="#1e293b" stroke-width="1.2"/>
+  <g class="dash-grid">
+    <!-- Verticals -->
+    <line x1="610" y1="40" x2="610" y2="175"/>
+    <line x1="720" y1="40" x2="720" y2="175"/>
+    <line x1="830" y1="40" x2="830" y2="175"/>
+    <!-- Horizontals -->
+    <line x1="500" y1="73" x2="940" y2="73"/>
+    <line x1="500" y1="107" x2="940" y2="107"/>
+    <line x1="500" y1="141" x2="940" y2="141"/>
   </g>
 
-  <!-- Node 1: Commits -->
-  <g class="bounce-node node-1">
-    <circle cx="112" cy="222" r="18" fill="#0b0f19" stroke="#22d3ee" stroke-width="4" filter="url(#softGlow)"/>
-    <circle cx="112" cy="222" r="6" fill="#22d3ee"/>
-    <text x="112" y="268" class="label" text-anchor="middle">Commits</text>
+  <!-- Y-Axis Labels -->
+  <text x="512" y="54" class="axis-label">1.0</text>
+  <text x="512" y="102" class="axis-label">0.5</text>
+  <text x="512" y="150" class="axis-label">0.0</text>
+
+  <!-- Chart Legends -->
+  <g transform="translate(800, 52)">
+    <circle cx="0" cy="0" r="4.5" fill="#f472b6"/>
+    <text x="10" y="4" class="legend-text" fill="#f472b6">Loss</text>
+    
+    <circle cx="65" cy="0" r="4.5" fill="#22d3ee"/>
+    <text x="75" y="4" class="legend-text" fill="#22d3ee">Accuracy</text>
   </g>
 
-  <!-- Node 2: Projects -->
-  <g class="bounce-node node-2">
-    <circle cx="358" cy="206" r="18" fill="#0b0f19" stroke="#818cf8" stroke-width="4" filter="url(#softGlow)"/>
-    <circle cx="358" cy="206" r="6" fill="#818cf8"/>
-    <text x="358" y="152" class="label" text-anchor="middle">Projects</text>
-  </g>
+  <!-- Accuracy Curve (Self-Drawing: Cyan) -->
+  <path d="M 500 152 Q 620 148, 710 92 T 930 65" stroke="#22d3ee" stroke-width="3" fill="none" class="plot-curve" stroke-linecap="round" filter="url(#softGlow)"/>
+  <!-- Loss Curve (Self-Drawing: Rose) -->
+  <path d="M 500 68 Q 620 72, 710 128 T 930 150" stroke="#f472b6" stroke-width="3" fill="none" class="plot-curve" stroke-linecap="round" filter="url(#softGlow)"/>
 
-  <!-- Node 3: Learning -->
-  <g class="bounce-node node-3">
-    <circle cx="584" cy="202" r="18" fill="#0b0f19" stroke="#f472b6" stroke-width="4" filter="url(#softGlow)"/>
-    <circle cx="584" cy="202" r="6" fill="#f472b6"/>
-    <text x="584" y="248" class="label" text-anchor="middle">Learning</text>
-  </g>
+  <!-- Glowing Target Markers -->
+  <circle cx="930" cy="65" r="4" fill="#ffffff" class="target-dot" filter="url(#softGlow)" style="color: #22d3ee;"/>
+  <circle cx="930" cy="150" r="4" fill="#ffffff" class="target-dot" filter="url(#softGlow)" style="color: #f472b6;"/>
 
-  <!-- Node 4: Innovative -->
-  <g class="bounce-node node-4">
-    <circle cx="828" cy="198" r="18" fill="#0b0f19" stroke="#fb923c" stroke-width="4" filter="url(#softGlow)"/>
-    <circle cx="828" cy="198" r="6" fill="#fb923c"/>
-    <text x="828" y="144" class="label" text-anchor="middle">Innovative</text>
-  </g>
 
-  <!-- Floating Tags -->
-  <g class="pulse-item tag-1">
-    <circle cx="198" cy="138" r="4.5" fill="#22d3ee"/>
-    <text x="212" y="142" class="mono">Data Science</text>
-  </g>
-  <g class="pulse-item tag-2">
-    <circle cx="282" cy="258" r="4.5" fill="#818cf8"/>
-    <text x="296" y="262" class="mono">Python</text>
-  </g>
-  <g class="pulse-item tag-3">
-    <circle cx="486" cy="292" r="4.5" fill="#f472b6"/>
-    <text x="500" y="296" class="mono">AI/ML</text>
-  </g>
-  <g class="pulse-item tag-4">
-    <circle cx="686" cy="126" r="4.5" fill="#fb923c"/>
-    <text x="700" y="130" class="mono">Web Development</text>
-  </g>
-  <g class="pulse-item tag-5">
-    <circle cx="750" cy="268" r="4.5" fill="#34d399"/>
-    <text x="764" y="272" class="mono">Analytics</text>
+  <!-- ================= CONSOLE TELEMETRY TERMINAL ================= -->
+  <rect x="500" y="200" width="440" height="120" rx="8" fill="#070a13" stroke="#1e293b" stroke-width="1.2"/>
+  
+  <!-- Terminal controls -->
+  <circle cx="520" cy="214" r="4" fill="#ef4444"/>
+  <circle cx="530" cy="214" r="4" fill="#f59e0b"/>
+  <circle cx="540" cy="214" r="4" fill="#10b981"/>
+  <text x="720" y="217" text-anchor="middle" class="console-header">TELEMETRY MONITOR -- SESSION ACTIVE</text>
+
+  <!-- Telemetry scrolling text lines -->
+  <g class="console-text">
+    <text x="520" y="244" class="log-line log-1">&gt; Ingesting analytics &amp; training dataset... [OK]</text>
+    <text x="520" y="262" class="log-line log-2">&gt; Epoch 1/3 | Loss: 0.542 | Accuracy: 72.8% | Synapses firing...</text>
+    <text x="520" y="280" class="log-line log-3">&gt; Epoch 2/3 | Loss: 0.219 | Accuracy: 91.5% | Optimizing weights...</text>
+    <text x="520" y="298" class="log-line log-4">&gt; Epoch 3/3 | Loss: 0.048 | Accuracy: 98.6% | Model converged.</text>
+    <text x="520" y="316" class="log-line log-5">&gt; SUCCESS: Model binary deployed to REST endpoint. [200 OK]</text>
   </g>
 </svg>

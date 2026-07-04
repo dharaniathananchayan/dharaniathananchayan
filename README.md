@@ -35,10 +35,10 @@ I am a data-focused developer specializing in translating complex, raw informati
 
 ---
 
-### 📊 GitHub Activity Track
+### 📊 Model Pipeline & Telemetry Monitor
 
 <p align="center">
-  <img width="100%" src="./assets/github-activity-track.svg" alt="Development cycle track" />
+  <img width="100%" src="./assets/github-activity-track.svg" alt="Neural Network Training Monitor" />
 </p>
 
 ---
@@ -51,12 +51,13 @@ Feel free to reach out to discuss data, web dev, AI projects, or just to say hel
   <a href="https://github.com/dharaniathananchayan">
     <img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub Logo" />
   </a>
-  <a href="https://linkedin.com/in/YOUR_LINKEDIN_USERNAME">
+  <a href="https://linkedin.com/in/dharaniathananchayan">
     <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn Logo" />
   </a>
-  <a href="mailto:your.email@example.com">
+  <a href="mailto:dharaniathananchayan@gmail.com">
     <img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email Logo" />
   </a>
+  <a href="https://codolio.com/profile/dharaniathananchayan">
+    <img src="https://img.shields.io/badge/Codolio-FF7A00?style=for-the-badge&logo=codeblocks&logoColor=white" alt="Codolio Logo" />
+  </a>
 </p>
-
-*Note: Replace `YOUR_LINKEDIN_USERNAME` and `your.email@example.com` with your active details to activate the badges.*
