@@ -141,11 +141,11 @@ Actively building full stack and AI/ML competency through structured, project-ba
 
 ---
 
-## 🟣 Daily Dev Joke
+## 🟣 Terminal
 
 <div align="center">
 
-![Jokes](https://quotes-github-readme.vercel.app/api?type=jokes&theme=radical)
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=20&duration=2500&pause=800&color=A78BFA&background=0D1117&center=true&vCenter=true&width=650&height=120&lines=%24+whoami;Dharania+%E2%80%94+Software+Engineer;%24+cat+skills.txt;Python+%7C+Django+%7C+Full+Stack+%7C+AI%2FML;%24+status+--current;Learning...+Building...+Shipping...;%24+echo+%24MOTIVATION;Ship+clean+code%2C+learn+relentlessly." alt="Terminal Typing SVG" />
 
 </div>
 
