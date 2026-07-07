@@ -13,16 +13,10 @@
 
 <br/>
 
-[![Portfolio](https://img.shields.io/badge/Portfolio-7C3AED?style=for-the-badge&logo=vercel&logoColor=white)](https://your-portfolio-link.com)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-6D28D9?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/YOUR_LINKEDIN)
-[![Email](https://img.shields.io/badge/Email-4C1D95?style=for-the-badge&logo=gmail&logoColor=white)](mailto:your.email@gmail.com)
-[![GitHub](https://img.shields.io/badge/GitHub-8B5CF6?style=for-the-badge&logo=github&logoColor=white)](https://github.com/YOUR_GITHUB_USERNAME)
-
-<br/>
-
-![Profile Views](https://komarev.com/ghpvc/?username=YOUR_GITHUB_USERNAME&color=8b5cf6&style=flat-square&label=Profile+Views)
-![Followers](https://img.shields.io/github/followers/YOUR_GITHUB_USERNAME?color=7c3aed&style=flat-square&label=Followers)
-![Stars](https://img.shields.io/github/stars/YOUR_GITHUB_USERNAME?color=6d28d9&style=flat-square&label=Stars)
+[![Portfolio](https://img.shields.io/badge/Codolio-7C3AED?style=for-the-badge&logo=vercel&logoColor=white)](https://codolio.com/profile/dharaniathananchayan)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-6D28D9?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/dharaniathananchayan/)
+[![Email](https://img.shields.io/badge/Email-4C1D95?style=for-the-badge&logo=gmail&logoColor=white)](mailto:dharaniathananchayan@gmail.com)
+[![GitHub](https://img.shields.io/badge/GitHub-8B5CF6?style=for-the-badge&logo=github&logoColor=white)](https://github.com/dharaniathananchayan)
 
 </div>
 
@@ -100,7 +94,7 @@ A production-style full stack application demonstrating REST API design, authent
 | **Performance** | Optimized query patterns, pagination, caching layer |
 | **Security** | Token-based auth, input validation, environment-based secrets |
 | **Impact** | Demonstrates end-to-end ownership from schema design to deployment |
-| **Repository** | [View Repo](https://github.com/YOUR_GITHUB_USERNAME/project-one) |
+| **Repository** | [View Repo](https://github.com/dharaniathananchayan/project-one) |
 
 Built to reinforce end-to-end backend engineering practices — from database schema design through to a deployable, containerized service.
 
@@ -119,7 +113,7 @@ An end-to-end data pipeline covering ingestion, cleaning, feature engineering, a
 | **Performance** | Vectorized transformations, reproducible experiment runs |
 | **Security** | Local data handling with no external data leakage |
 | **Impact** | Establishes a reusable template for future ML experimentation |
-| **Repository** | [View Repo](https://github.com/YOUR_GITHUB_USERNAME/project-two) |
+| **Repository** | [View Repo](https://github.com/dharaniathananchayan/project-two) |
 
 Focused on building disciplined, reproducible ML workflows rather than one-off notebooks.
 
@@ -138,7 +132,7 @@ A lightweight backend service showcasing clean API design and automated testing.
 | **Performance** | Sub-100ms average response time on core endpoints |
 | **Security** | Rate limiting, request validation, structured error handling |
 | **Impact** | Serves as a reference implementation for future services |
-| **Repository** | [View Repo](https://github.com/YOUR_GITHUB_USERNAME/project-three) |
+| **Repository** | [View Repo](https://github.com/dharaniathananchayan/project-three) |
 
 Built with an emphasis on test coverage and API contract clarity.
 
@@ -176,47 +170,14 @@ Actively building full stack and AI/ML competency through structured, project-ba
 
 ---
 
-## 🟣 Certifications
-
-**☁️ AWS**
-
-![AWS Cloud Practitioner](https://img.shields.io/badge/AWS-Cloud%20Practitioner-6D28D9?style=flat-square&logo=amazonaws&logoColor=white)
-
-**🔶 Oracle**
-
-![Oracle Certified](https://img.shields.io/badge/Oracle-Certified%20Foundations-7C3AED?style=flat-square&logo=oracle&logoColor=white)
-
-**📚 NPTEL**
-
-![NPTEL](https://img.shields.io/badge/NPTEL-Certified%20Course-8B5CF6?style=flat-square&logo=bookstack&logoColor=white)
-
-**🌐 Cisco**
-
-![Cisco](https://img.shields.io/badge/Cisco-Networking%20Basics-A78BFA?style=flat-square&logo=cisco&logoColor=white)
-
----
-
-## 🟣 Coding Profiles
-
-<div align="center">
-
-[![LeetCode](https://img.shields.io/badge/LeetCode-4C1D95?style=for-the-badge&logo=leetcode&logoColor=white)](https://leetcode.com/YOUR_LEETCODE)
-[![GeeksforGeeks](https://img.shields.io/badge/GeeksforGeeks-6D28D9?style=for-the-badge&logo=geeksforgeeks&logoColor=white)](https://auth.geeksforgeeks.org/user/YOUR_GFG)
-[![HackerRank](https://img.shields.io/badge/HackerRank-7C3AED?style=for-the-badge&logo=hackerrank&logoColor=white)](https://hackerrank.com/YOUR_HACKERRANK)
-[![CodeChef](https://img.shields.io/badge/CodeChef-8B5CF6?style=for-the-badge&logo=codechef&logoColor=white)](https://codechef.com/users/YOUR_CODECHEF)
-
-</div>
-
----
-
 ## 🟣 GitHub Analytics
 
 <div align="center">
 
-<img src="https://github-readme-stats.vercel.app/api?username=YOUR_GITHUB_USERNAME&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=A78BFA&icon_color=8B5CF6&text_color=C9D1D9" width="48%"/>
-<img src="https://github-readme-streak-stats.herokuapp.com/?user=YOUR_GITHUB_USERNAME&theme=tokyonight&hide_border=true&background=0D1117&ring=8B5CF6&fire=A78BFA&currStreakLabel=A78BFA" width="48%"/>
+<img src="https://github-readme-stats.vercel.app/api?username=dharaniathananchayan&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=A78BFA&icon_color=8B5CF6&text_color=C9D1D9" width="48%"/>
+<img src="https://github-readme-streak-stats.herokuapp.com/?user=dharaniathananchayan&theme=tokyonight&hide_border=true&background=0D1117&ring=8B5CF6&fire=A78BFA&currStreakLabel=A78BFA" width="48%"/>
 
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=YOUR_GITHUB_USERNAME&layout=compact&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=A78BFA&text_color=C9D1D9" width="48%"/>
+<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=dharaniathananchayan&layout=compact&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=A78BFA&text_color=C9D1D9" width="48%"/>
 
 </div>
 
@@ -226,7 +187,7 @@ Actively building full stack and AI/ML competency through structured, project-ba
 
 <div align="center">
 
-<img src="https://github-profile-trophy.vercel.app/?username=YOUR_GITHUB_USERNAME&theme=discord&no-frame=true&row=1&column=6&margin-w=8" />
+<img src="https://github-profile-trophy.vercel.app/?username=dharaniathananchayan&theme=discord&no-frame=true&row=1&column=6&margin-w=8" />
 
 </div>
 
@@ -236,7 +197,7 @@ Actively building full stack and AI/ML competency through structured, project-ba
 
 <div align="center">
 
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=YOUR_GITHUB_USERNAME&theme=tokyo-night&hide_border=true&bg_color=0D1117&color=A78BFA&line=8B5CF6&point=C9D1D9" width="95%"/>
+<img src="https://github-readme-activity-graph.vercel.app/graph?username=dharaniathananchayan&theme=tokyo-night&hide_border=true&bg_color=0D1117&color=A78BFA&line=8B5CF6&point=C9D1D9" width="95%"/>
 
 </div>
 
@@ -246,7 +207,7 @@ Actively building full stack and AI/ML competency through structured, project-ba
 
 <div align="center">
 
-<img src="https://raw.githubusercontent.com/YOUR_GITHUB_USERNAME/YOUR_GITHUB_USERNAME/output/github-contribution-grid-snake-dark.svg" width="95%"/>
+<img src="https://raw.githubusercontent.com/dharaniathananchayan/dharaniathananchayan/output/github-contribution-grid-snake-dark.svg" width="95%"/>
 
 </div>
 
@@ -280,10 +241,10 @@ Open To:
 
 <div align="center">
 
-[![Gmail](https://img.shields.io/badge/Gmail-4C1D95?style=for-the-badge&logo=gmail&logoColor=white)](mailto:your.email@gmail.com)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-6D28D9?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/YOUR_LINKEDIN)
-[![GitHub](https://img.shields.io/badge/GitHub-7C3AED?style=for-the-badge&logo=github&logoColor=white)](https://github.com/YOUR_GITHUB_USERNAME)
-[![Portfolio](https://img.shields.io/badge/Portfolio-8B5CF6?style=for-the-badge&logo=vercel&logoColor=white)](https://your-portfolio-link.com)
+[![Gmail](https://img.shields.io/badge/Gmail-4C1D95?style=for-the-badge&logo=gmail&logoColor=white)](mailto:dharaniathananchayan@gmail.com)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-6D28D9?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/dharaniathananchayan/)
+[![GitHub](https://img.shields.io/badge/GitHub-7C3AED?style=for-the-badge&logo=github&logoColor=white)](https://github.com/dharaniathananchayan)
+[![Portfolio](https://img.shields.io/badge/Codolio-8B5CF6?style=for-the-badge&logo=vercel&logoColor=white)](https://codolio.com/profile/dharaniathananchayan)
 
 </div>
 
