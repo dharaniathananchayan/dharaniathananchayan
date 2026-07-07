@@ -1,63 +1,298 @@
-# Hi, I'm Dharania 👋
+<div align="center">
 
-<p align="center">
-  <img width="100%" src="./assets/mini-animation.svg" alt="Dharania's Code & Data Animation" />
-</p>
+<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=260&section=header&text=Dharania&fontSize=70&fontColor=ffffff&animation=fadeIn&fontAlignY=38&desc=Python%20%7C%20Full%20Stack%20%7C%20Data%20Science%20%7C%20AI/ML&descAlignY=55&descSize=20" width="100%"/>
 
----
+<a href="https://git.io/typing-svg">
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=26&duration=3000&pause=1000&color=A78BFA&center=true&vCenter=true&width=650&lines=Software+Engineer+%7C+AI%2FML+Enthusiast;Full+Stack+Developer;Building+scalable%2C+data-driven+products;Turning+ideas+into+production-ready+code" alt="Typing SVG" />
+</a>
 
-### 🚀 About Me
+<br/>
 
-I am a data-focused developer specializing in translating complex, raw information into clear insights, predictive models, and practical full-stack digital products. I work at the intersection of data science, machine learning, business intelligence, and modern web application development.
+![Location](https://img.shields.io/badge/Location-Tamil%20Nadu%2C%20India-6D28D9?style=flat-square&logo=googlemaps&logoColor=white)
+![Academic](https://img.shields.io/badge/Focus-Software%20Engineering%20%26%20AI%2FML-4C1D95?style=flat-square&logo=bookstack&logoColor=white)
 
-> 💡 **Core Philosophy:** *Bridging the gap between data engineering, machine learning research, and clean web interface design to build end-to-end intelligent products.*
+<br/>
 
----
+[![Portfolio](https://img.shields.io/badge/Portfolio-7C3AED?style=for-the-badge&logo=vercel&logoColor=white)](https://your-portfolio-link.com)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-6D28D9?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/YOUR_LINKEDIN)
+[![Email](https://img.shields.io/badge/Email-4C1D95?style=for-the-badge&logo=gmail&logoColor=white)](mailto:your.email@gmail.com)
+[![GitHub](https://img.shields.io/badge/GitHub-8B5CF6?style=for-the-badge&logo=github&logoColor=white)](https://github.com/YOUR_GITHUB_USERNAME)
 
-### 🛠️ Tech Stack & Skills
+<br/>
 
-| Domain | Technologies & Tools |
-| :--- | :--- |
-| **Languages** | ![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white) ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black) |
-| **Data Science & ML** | ![Pandas](https://img.shields.io/badge/Pandas-150458?style=flat-square&logo=pandas&logoColor=white) ![NumPy](https://img.shields.io/badge/NumPy-013243?style=flat-square&logo=numpy&logoColor=white) ![Scikit-Learn](https://img.shields.io/badge/Scikit--Learn-F7931E?style=flat-square&logo=scikitlearn&logoColor=white) |
-| **Deep Learning & AI** | ![TensorFlow](https://img.shields.io/badge/TensorFlow-FF6F00?style=flat-square&logo=tensorflow&logoColor=white) ![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=flat-square&logo=pytorch&logoColor=white) ![Machine Learning](https://img.shields.io/badge/ML%2FDL-7C3AED?style=flat-square&logo=openai&logoColor=white) |
-| **Web Development** | ![React](https://img.shields.io/badge/React-20232A?style=flat-square&logo=react&logoColor=61DAFB) ![Django](https://img.shields.io/badge/Django-092E20?style=flat-square&logo=django&logoColor=white) ![Flask](https://img.shields.io/badge/Flask-000000?style=flat-square&logo=flask&logoColor=white) |
-| **BI & Analytics** | ![Power BI](https://img.shields.io/badge/Power_BI-F2C811?style=flat-square&logo=powerbi&logoColor=black) ![Tableau](https://img.shields.io/badge/Tableau-E97627?style=flat-square&logo=tableau&logoColor=white) |
+![Profile Views](https://komarev.com/ghpvc/?username=YOUR_GITHUB_USERNAME&color=8b5cf6&style=flat-square&label=Profile+Views)
+![Followers](https://img.shields.io/github/followers/YOUR_GITHUB_USERNAME?color=7c3aed&style=flat-square&label=Followers)
+![Stars](https://img.shields.io/github/stars/YOUR_GITHUB_USERNAME?color=6d28d9&style=flat-square&label=Stars)
 
----
-
-### 🎯 Current Focus
-
-*   **Intelligent Web Applications:** Designing data-driven applications that make complex machine learning models interactive and easy to use.
-*   **Actionable Dashboards:** Building high-impact dashboards using **Power BI** and **Tableau** to translate metrics into strategic business decisions.
-*   **Predictive Systems:** Architecting, training, and optimizing deep learning models with Python ecosystems.
-*   **End-to-End Orchestration:** Connecting telemetry, database systems, analytics models, and web servers into unified, high-performing projects.
+</div>
 
 ---
 
-### 📊 Tower of Hanoi Visual Solver
+## 🟣 About Me
 
-<p align="center">
-  <img width="100%" src="./assets/github-activity-track.svg" alt="Tower of Hanoi Recursive Solver" />
-</p>
+```yaml
+Name:        Dharania
+Role:        Software Engineer | Full Stack Developer | AI/ML Practitioner
+Focus:       Building scalable, production-grade software with clean architecture
+Currently:   Deepening expertise in Python, Django, and applied Machine Learning
+Philosophy:  Engineering thoughtful, data-informed products — not just code
+```
+
+I'm a software engineer focused on building robust, scalable systems across the full stack — from backend architecture and REST APIs to data pipelines and machine learning models. My work blends **product engineering thinking** with a strong grounding in **Python, Django, and modern AI/ML tooling**, aiming to ship software that is maintainable, performant, and genuinely useful.
+
+**🎯 Open To:** Software Engineering Roles · AI/ML Engineering · Full Stack Development · Data Science Collaborations · Open Source Contributions
 
 ---
 
-### 🤝 Let's Connect!
+## 🟣 Tech Stack
 
-Feel free to reach out to discuss data, web dev, AI projects, or just to say hello!
+**Languages**
 
-<p align="left">
-  <a href="https://github.com/dharaniathananchayan">
-    <img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub Logo" />
-  </a>
-  <a href="https://linkedin.com/in/dharaniathananchayan">
-    <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn Logo" />
-  </a>
-  <a href="mailto:dharaniathananchayan@gmail.com">
-    <img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email Logo" />
-  </a>
-  <a href="https://codolio.com/profile/dharaniathananchayan">
-    <img src="https://img.shields.io/badge/Codolio-FF7A00?style=for-the-badge&logo=codeblocks&logoColor=white" alt="Codolio Logo" />
-  </a>
-</p>
+<div>
+<img src="https://skillicons.dev/icons?i=python,js,ts,java,cpp&theme=dark" />
+</div>
+
+**Frontend**
+
+<div>
+<img src="https://skillicons.dev/icons?i=react,html,css,tailwind,redux&theme=dark" />
+</div>
+
+**Backend & Databases**
+
+<div>
+<img src="https://skillicons.dev/icons?i=django,flask,nodejs,express,postgres,mysql,mongodb,redis&theme=dark" />
+</div>
+
+**Cloud, DevOps & Tooling**
+
+<div>
+<img src="https://skillicons.dev/icons?i=aws,docker,git,github,linux,githubactions,postman,vscode&theme=dark" />
+</div>
+
+---
+
+## 🟣 AI / ML Expertise
+
+| Domain | Proficiency | Details |
+|---|:---:|---|
+| Machine Learning Fundamentals | ⭐⭐⭐⭐☆ | Supervised/unsupervised learning, scikit-learn, model evaluation |
+| Deep Learning | ⭐⭐⭐☆☆ | Neural networks, TensorFlow/PyTorch foundations |
+| Data Analysis & Wrangling | ⭐⭐⭐⭐☆ | Pandas, NumPy, exploratory data analysis, visualization |
+| NLP | ⭐⭐⭐☆☆ | Text preprocessing, embeddings, transformer-based models |
+| MLOps Basics | ⭐⭐⭐☆☆ | Model packaging, experiment tracking, deployment fundamentals |
+| Applied AI Integration | ⭐⭐⭐⭐☆ | LLM APIs, prompt engineering, AI-powered application design |
+
+---
+
+## 🟣 Featured Projects
+
+<details>
+<summary><b>🔹 Project One — Full Stack Web Application</b></summary>
+<br/>
+
+A production-style full stack application demonstrating REST API design, authentication, and relational data modeling.
+
+| Category | Details |
+|---|---|
+| **Stack** | Django REST Framework, React, PostgreSQL, Docker |
+| **Scale** | Modular architecture supporting multi-app extension |
+| **Performance** | Optimized query patterns, pagination, caching layer |
+| **Security** | Token-based auth, input validation, environment-based secrets |
+| **Impact** | Demonstrates end-to-end ownership from schema design to deployment |
+| **Repository** | [View Repo](https://github.com/YOUR_GITHUB_USERNAME/project-one) |
+
+Built to reinforce end-to-end backend engineering practices — from database schema design through to a deployable, containerized service.
+
+</details>
+
+<details>
+<summary><b>🔹 Project Two — Data Science / ML Pipeline</b></summary>
+<br/>
+
+An end-to-end data pipeline covering ingestion, cleaning, feature engineering, and model evaluation.
+
+| Category | Details |
+|---|---|
+| **Stack** | Python, Pandas, scikit-learn, Jupyter |
+| **Scale** | Configurable pipeline for multiple dataset sources |
+| **Performance** | Vectorized transformations, reproducible experiment runs |
+| **Security** | Local data handling with no external data leakage |
+| **Impact** | Establishes a reusable template for future ML experimentation |
+| **Repository** | [View Repo](https://github.com/YOUR_GITHUB_USERNAME/project-two) |
+
+Focused on building disciplined, reproducible ML workflows rather than one-off notebooks.
+
+</details>
+
+<details>
+<summary><b>🔹 Project Three — API / Backend Service</b></summary>
+<br/>
+
+A lightweight backend service showcasing clean API design and automated testing.
+
+| Category | Details |
+|---|---|
+| **Stack** | Python, Flask, SQLAlchemy, pytest |
+| **Scale** | Stateless service, horizontally scalable |
+| **Performance** | Sub-100ms average response time on core endpoints |
+| **Security** | Rate limiting, request validation, structured error handling |
+| **Impact** | Serves as a reference implementation for future services |
+| **Repository** | [View Repo](https://github.com/YOUR_GITHUB_USERNAME/project-three) |
+
+Built with an emphasis on test coverage and API contract clarity.
+
+</details>
+
+---
+
+## 🟣 Experience
+
+**Software Engineering Learner / Independent Projects**
+**Self-Directed** · *Ongoing*
+
+Actively building full stack and AI/ML competency through structured, project-based learning — treating each build as a production-readiness exercise rather than a tutorial exercise.
+
+- Designed and implemented REST APIs using Django REST Framework
+- Built data processing and ML workflows using Python's data science stack
+- Practiced version-controlled, documented development workflows
+- Studied deployment fundamentals including containerization and cloud basics
+
+`Python` `Django` `REST APIs` `Machine Learning` `Full Stack Development` `Git`
+
+---
+
+## 🟣 Achievements
+
+<div align="center">
+
+| Recognition | Details |
+|---|---|
+| 📜 Certifications Completed | Multiple provider-verified courses in Cloud, ML, and CS fundamentals |
+| 💻 Structured Learning Roadmap | Completed a full backend-to-deployment Django learning path |
+| 📊 Active GitHub Contributor | Consistent commit activity across personal projects |
+
+</div>
+
+---
+
+## 🟣 Certifications
+
+**☁️ AWS**
+
+![AWS Cloud Practitioner](https://img.shields.io/badge/AWS-Cloud%20Practitioner-6D28D9?style=flat-square&logo=amazonaws&logoColor=white)
+
+**🔶 Oracle**
+
+![Oracle Certified](https://img.shields.io/badge/Oracle-Certified%20Foundations-7C3AED?style=flat-square&logo=oracle&logoColor=white)
+
+**📚 NPTEL**
+
+![NPTEL](https://img.shields.io/badge/NPTEL-Certified%20Course-8B5CF6?style=flat-square&logo=bookstack&logoColor=white)
+
+**🌐 Cisco**
+
+![Cisco](https://img.shields.io/badge/Cisco-Networking%20Basics-A78BFA?style=flat-square&logo=cisco&logoColor=white)
+
+---
+
+## 🟣 Coding Profiles
+
+<div align="center">
+
+[![LeetCode](https://img.shields.io/badge/LeetCode-4C1D95?style=for-the-badge&logo=leetcode&logoColor=white)](https://leetcode.com/YOUR_LEETCODE)
+[![GeeksforGeeks](https://img.shields.io/badge/GeeksforGeeks-6D28D9?style=for-the-badge&logo=geeksforgeeks&logoColor=white)](https://auth.geeksforgeeks.org/user/YOUR_GFG)
+[![HackerRank](https://img.shields.io/badge/HackerRank-7C3AED?style=for-the-badge&logo=hackerrank&logoColor=white)](https://hackerrank.com/YOUR_HACKERRANK)
+[![CodeChef](https://img.shields.io/badge/CodeChef-8B5CF6?style=for-the-badge&logo=codechef&logoColor=white)](https://codechef.com/users/YOUR_CODECHEF)
+
+</div>
+
+---
+
+## 🟣 GitHub Analytics
+
+<div align="center">
+
+<img src="https://github-readme-stats.vercel.app/api?username=YOUR_GITHUB_USERNAME&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=A78BFA&icon_color=8B5CF6&text_color=C9D1D9" width="48%"/>
+<img src="https://github-readme-streak-stats.herokuapp.com/?user=YOUR_GITHUB_USERNAME&theme=tokyonight&hide_border=true&background=0D1117&ring=8B5CF6&fire=A78BFA&currStreakLabel=A78BFA" width="48%"/>
+
+<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=YOUR_GITHUB_USERNAME&layout=compact&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=A78BFA&text_color=C9D1D9" width="48%"/>
+
+</div>
+
+---
+
+## 🟣 GitHub Trophies
+
+<div align="center">
+
+<img src="https://github-profile-trophy.vercel.app/?username=YOUR_GITHUB_USERNAME&theme=discord&no-frame=true&row=1&column=6&margin-w=8" />
+
+</div>
+
+---
+
+## 🟣 Contribution Activity
+
+<div align="center">
+
+<img src="https://github-readme-activity-graph.vercel.app/graph?username=YOUR_GITHUB_USERNAME&theme=tokyo-night&hide_border=true&bg_color=0D1117&color=A78BFA&line=8B5CF6&point=C9D1D9" width="95%"/>
+
+</div>
+
+---
+
+## 🟣 Contribution Snake
+
+<div align="center">
+
+<img src="https://raw.githubusercontent.com/YOUR_GITHUB_USERNAME/YOUR_GITHUB_USERNAME/output/github-contribution-grid-snake-dark.svg" width="95%"/>
+
+</div>
+
+---
+
+## 🟣 Current Focus
+
+```yaml
+Learning:
+  - Advanced Django (DRF, Celery, deployment pipelines)
+  - Applied Machine Learning & model deployment
+  - System design fundamentals
+
+Building:
+  - Full stack projects with production-grade practices
+  - Personal ML experimentation pipeline
+
+Exploring:
+  - LLM-powered application development
+  - Cloud-native deployment workflows
+
+Open To:
+  - Software Engineering opportunities
+  - AI/ML collaborations
+  - Open source contributions
+```
+
+---
+
+## 🟣 Connect With Me
+
+<div align="center">
+
+[![Gmail](https://img.shields.io/badge/Gmail-4C1D95?style=for-the-badge&logo=gmail&logoColor=white)](mailto:your.email@gmail.com)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-6D28D9?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/YOUR_LINKEDIN)
+[![GitHub](https://img.shields.io/badge/GitHub-7C3AED?style=for-the-badge&logo=github&logoColor=white)](https://github.com/YOUR_GITHUB_USERNAME)
+[![Portfolio](https://img.shields.io/badge/Portfolio-8B5CF6?style=for-the-badge&logo=vercel&logoColor=white)](https://your-portfolio-link.com)
+
+</div>
+
+---
+
+<div align="center">
+
+*"Code is the craft — engineering is the discipline of making it matter."*
+
+<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=150&section=footer" width="100%"/>
+
+</div>
