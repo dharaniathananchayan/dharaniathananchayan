@@ -75,11 +75,11 @@ I'm a software engineer focused on building robust, scalable systems across the 
 **Data Analysis**
 
 <div>
-<img src="https://img.shields.io/badge/Pandas-150458?style=flat-square&logo=pandas&logoColor=white" title="Pandas"/>
-<img src="https://img.shields.io/badge/NumPy-013243?style=flat-square&logo=numpy&logoColor=white" title="NumPy"/>
-<img src="https://img.shields.io/badge/Matplotlib-11557C?style=flat-square&logo=plotly&logoColor=white" title="Matplotlib"/>
-<img src="https://img.shields.io/badge/Power%20BI-F2C811?style=flat-square&logo=powerbi&logoColor=black" title="Power BI"/>
-<img src="https://img.shields.io/badge/Tableau-E97627?style=flat-square&logo=tableau&logoColor=white" title="Tableau"/>
+<img src="https://img.shields.io/badge/-%20-150458?style=flat-square&logo=pandas&logoColor=white" title="Pandas" width="48"/>
+<img src="https://img.shields.io/badge/-%20-013243?style=flat-square&logo=numpy&logoColor=white" title="NumPy" width="48"/>
+<img src="https://img.shields.io/badge/-%20-11557C?style=flat-square&logo=matplotlib&logoColor=white" title="Matplotlib" width="48"/>
+<img src="https://img.shields.io/badge/-%20-F2C811?style=flat-square&logo=powerbi&logoColor=black" title="Power BI" width="48"/>
+<img src="https://img.shields.io/badge/-%20-E97627?style=flat-square&logo=tableau&logoColor=white" title="Tableau" width="48"/>
 </div>
 
 **AI / ML**
@@ -89,7 +89,7 @@ I'm a software engineer focused on building robust, scalable systems across the 
 <img src="https://skillicons.dev/icons?i=pytorch&theme=dark" title="PyTorch" width="48"/>
 <img src="https://skillicons.dev/icons?i=sklearn&theme=dark" title="Scikit-learn" width="48"/>
 <img src="https://skillicons.dev/icons?i=opencv&theme=dark" title="OpenCV" width="48"/>
-<img src="https://img.shields.io/badge/Keras-D00000?style=flat-square&logo=keras&logoColor=white" title="Keras"/>
+<img src="https://img.shields.io/badge/-%20-D00000?style=flat-square&logo=keras&logoColor=white" title="Keras" width="48"/>
 </div>
 
 **Tools**
