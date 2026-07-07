@@ -44,10 +44,10 @@ I'm a software engineer focused on building robust, scalable systems across the 
 
 <div>
 <img src="https://skillicons.dev/icons?i=python&theme=dark" title="Python" width="48"/>
+<img src="https://skillicons.dev/icons?i=java&theme=dark" title="Java" width="48"/>
 <img src="https://skillicons.dev/icons?i=js&theme=dark" title="JavaScript" width="48"/>
 <img src="https://skillicons.dev/icons?i=ts&theme=dark" title="TypeScript" width="48"/>
-<img src="https://skillicons.dev/icons?i=java&theme=dark" title="Java" width="48"/>
-<img src="https://skillicons.dev/icons?i=cpp&theme=dark" title="C++" width="48"/>
+<img src="https://skillicons.dev/icons?i=mysql&theme=dark" title="SQL" width="48"/>
 </div>
 
 **Frontend**
@@ -57,7 +57,8 @@ I'm a software engineer focused on building robust, scalable systems across the 
 <img src="https://skillicons.dev/icons?i=html&theme=dark" title="HTML5" width="48"/>
 <img src="https://skillicons.dev/icons?i=css&theme=dark" title="CSS3" width="48"/>
 <img src="https://skillicons.dev/icons?i=tailwind&theme=dark" title="Tailwind CSS" width="48"/>
-<img src="https://skillicons.dev/icons?i=redux&theme=dark" title="Redux" width="48"/>
+<img src="https://skillicons.dev/icons?i=bootstrap&theme=dark" title="Bootstrap" width="48"/>
+<img src="https://skillicons.dev/icons?i=jquery&theme=dark" title="jQuery" width="48"/>
 </div>
 
 **Backend & Databases**
@@ -65,25 +66,41 @@ I'm a software engineer focused on building robust, scalable systems across the 
 <div>
 <img src="https://skillicons.dev/icons?i=django&theme=dark" title="Django" width="48"/>
 <img src="https://skillicons.dev/icons?i=flask&theme=dark" title="Flask" width="48"/>
-<img src="https://skillicons.dev/icons?i=nodejs&theme=dark" title="Node.js" width="48"/>
-<img src="https://skillicons.dev/icons?i=express&theme=dark" title="Express" width="48"/>
-<img src="https://skillicons.dev/icons?i=postgres&theme=dark" title="PostgreSQL" width="48"/>
 <img src="https://skillicons.dev/icons?i=mysql&theme=dark" title="MySQL" width="48"/>
+<img src="https://skillicons.dev/icons?i=postgres&theme=dark" title="PostgreSQL" width="48"/>
 <img src="https://skillicons.dev/icons?i=mongodb&theme=dark" title="MongoDB" width="48"/>
-<img src="https://skillicons.dev/icons?i=redis&theme=dark" title="Redis" width="48"/>
+<img src="https://skillicons.dev/icons?i=sqlite&theme=dark" title="SQLite" width="48"/>
 </div>
 
-**Cloud, DevOps & Tooling**
+**Data Analysis**
 
 <div>
-<img src="https://skillicons.dev/icons?i=aws&theme=dark" title="AWS" width="48"/>
+<img src="https://img.shields.io/badge/Pandas-150458?style=flat-square&logo=pandas&logoColor=white" title="Pandas"/>
+<img src="https://img.shields.io/badge/NumPy-013243?style=flat-square&logo=numpy&logoColor=white" title="NumPy"/>
+<img src="https://img.shields.io/badge/Matplotlib-11557C?style=flat-square&logo=plotly&logoColor=white" title="Matplotlib"/>
+<img src="https://img.shields.io/badge/Power%20BI-F2C811?style=flat-square&logo=powerbi&logoColor=black" title="Power BI"/>
+<img src="https://img.shields.io/badge/Tableau-E97627?style=flat-square&logo=tableau&logoColor=white" title="Tableau"/>
+</div>
+
+**AI / ML**
+
+<div>
+<img src="https://skillicons.dev/icons?i=tensorflow&theme=dark" title="TensorFlow" width="48"/>
+<img src="https://skillicons.dev/icons?i=pytorch&theme=dark" title="PyTorch" width="48"/>
+<img src="https://skillicons.dev/icons?i=sklearn&theme=dark" title="Scikit-learn" width="48"/>
+<img src="https://skillicons.dev/icons?i=opencv&theme=dark" title="OpenCV" width="48"/>
+<img src="https://img.shields.io/badge/Keras-D00000?style=flat-square&logo=keras&logoColor=white" title="Keras"/>
+</div>
+
+**Tools**
+
+<div>
 <img src="https://skillicons.dev/icons?i=docker&theme=dark" title="Docker" width="48"/>
 <img src="https://skillicons.dev/icons?i=git&theme=dark" title="Git" width="48"/>
 <img src="https://skillicons.dev/icons?i=github&theme=dark" title="GitHub" width="48"/>
-<img src="https://skillicons.dev/icons?i=linux&theme=dark" title="Linux" width="48"/>
-<img src="https://skillicons.dev/icons?i=githubactions&theme=dark" title="GitHub Actions" width="48"/>
-<img src="https://skillicons.dev/icons?i=postman&theme=dark" title="Postman" width="48"/>
+<img src="https://skillicons.dev/icons?i=pycharm&theme=dark" title="PyCharm" width="48"/>
 <img src="https://skillicons.dev/icons?i=vscode&theme=dark" title="VS Code" width="48"/>
+<img src="https://skillicons.dev/icons?i=postman&theme=dark" title="Postman" width="48"/>
 </div>
 
 ---
@@ -137,11 +154,13 @@ Actively building full stack and AI/ML competency through structured, project-ba
 
 <img src="https://github-readme-activity-graph.vercel.app/graph?username=dharaniathananchayan&theme=tokyo-night&hide_border=true&bg_color=0D1117&color=A78BFA&line=8B5CF6&point=C9D1D9" width="95%"/>
 
+<br/>
+
+<img src="https://raw.githubusercontent.com/dharaniathananchayan/dharaniathananchayan/output/assets/github-contribution-grid-snake-dark.svg" width="95%"/>
+
 </div>
 
 ---
-
-## 🟣 Terminal
 
 <div align="center">
 
