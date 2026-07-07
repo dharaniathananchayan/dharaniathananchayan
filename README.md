@@ -156,7 +156,7 @@ Actively building full stack and AI/ML competency through structured, project-ba
 
 <br/>
 
-<img src="https://raw.githubusercontent.com/dharaniathananchayan/dharaniathananchayan/output/assets/github-contribution-grid-snake-dark.svg" width="95%"/>
+<img src="https://raw.githubusercontent.com/dharaniathananchayan/dharaniathananchayan/output/github-contribution-grid-snake-dark.svg" width="95%"/>
 
 </div>
 
