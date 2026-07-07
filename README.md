@@ -43,25 +43,47 @@ I'm a software engineer focused on building robust, scalable systems across the 
 **Languages**
 
 <div>
-<img src="https://skillicons.dev/icons?i=python,js,ts,java,cpp&theme=dark" />
+<img src="https://skillicons.dev/icons?i=python&theme=dark" title="Python" width="48"/>
+<img src="https://skillicons.dev/icons?i=js&theme=dark" title="JavaScript" width="48"/>
+<img src="https://skillicons.dev/icons?i=ts&theme=dark" title="TypeScript" width="48"/>
+<img src="https://skillicons.dev/icons?i=java&theme=dark" title="Java" width="48"/>
+<img src="https://skillicons.dev/icons?i=cpp&theme=dark" title="C++" width="48"/>
 </div>
 
 **Frontend**
 
 <div>
-<img src="https://skillicons.dev/icons?i=react,html,css,tailwind,redux&theme=dark" />
+<img src="https://skillicons.dev/icons?i=react&theme=dark" title="React" width="48"/>
+<img src="https://skillicons.dev/icons?i=html&theme=dark" title="HTML5" width="48"/>
+<img src="https://skillicons.dev/icons?i=css&theme=dark" title="CSS3" width="48"/>
+<img src="https://skillicons.dev/icons?i=tailwind&theme=dark" title="Tailwind CSS" width="48"/>
+<img src="https://skillicons.dev/icons?i=redux&theme=dark" title="Redux" width="48"/>
 </div>
 
 **Backend & Databases**
 
 <div>
-<img src="https://skillicons.dev/icons?i=django,flask,nodejs,express,postgres,mysql,mongodb,redis&theme=dark" />
+<img src="https://skillicons.dev/icons?i=django&theme=dark" title="Django" width="48"/>
+<img src="https://skillicons.dev/icons?i=flask&theme=dark" title="Flask" width="48"/>
+<img src="https://skillicons.dev/icons?i=nodejs&theme=dark" title="Node.js" width="48"/>
+<img src="https://skillicons.dev/icons?i=express&theme=dark" title="Express" width="48"/>
+<img src="https://skillicons.dev/icons?i=postgres&theme=dark" title="PostgreSQL" width="48"/>
+<img src="https://skillicons.dev/icons?i=mysql&theme=dark" title="MySQL" width="48"/>
+<img src="https://skillicons.dev/icons?i=mongodb&theme=dark" title="MongoDB" width="48"/>
+<img src="https://skillicons.dev/icons?i=redis&theme=dark" title="Redis" width="48"/>
 </div>
 
 **Cloud, DevOps & Tooling**
 
 <div>
-<img src="https://skillicons.dev/icons?i=aws,docker,git,github,linux,githubactions,postman,vscode&theme=dark" />
+<img src="https://skillicons.dev/icons?i=aws&theme=dark" title="AWS" width="48"/>
+<img src="https://skillicons.dev/icons?i=docker&theme=dark" title="Docker" width="48"/>
+<img src="https://skillicons.dev/icons?i=git&theme=dark" title="Git" width="48"/>
+<img src="https://skillicons.dev/icons?i=github&theme=dark" title="GitHub" width="48"/>
+<img src="https://skillicons.dev/icons?i=linux&theme=dark" title="Linux" width="48"/>
+<img src="https://skillicons.dev/icons?i=githubactions&theme=dark" title="GitHub Actions" width="48"/>
+<img src="https://skillicons.dev/icons?i=postman&theme=dark" title="Postman" width="48"/>
+<img src="https://skillicons.dev/icons?i=vscode&theme=dark" title="VS Code" width="48"/>
 </div>
 
 ---
@@ -76,67 +98,6 @@ I'm a software engineer focused on building robust, scalable systems across the 
 | NLP | ⭐⭐⭐☆☆ | Text preprocessing, embeddings, transformer-based models |
 | MLOps Basics | ⭐⭐⭐☆☆ | Model packaging, experiment tracking, deployment fundamentals |
 | Applied AI Integration | ⭐⭐⭐⭐☆ | LLM APIs, prompt engineering, AI-powered application design |
-
----
-
-## 🟣 Featured Projects
-
-<details>
-<summary><b>🔹 Project One — Full Stack Web Application</b></summary>
-<br/>
-
-A production-style full stack application demonstrating REST API design, authentication, and relational data modeling.
-
-| Category | Details |
-|---|---|
-| **Stack** | Django REST Framework, React, PostgreSQL, Docker |
-| **Scale** | Modular architecture supporting multi-app extension |
-| **Performance** | Optimized query patterns, pagination, caching layer |
-| **Security** | Token-based auth, input validation, environment-based secrets |
-| **Impact** | Demonstrates end-to-end ownership from schema design to deployment |
-| **Repository** | [View Repo](https://github.com/dharaniathananchayan/project-one) |
-
-Built to reinforce end-to-end backend engineering practices — from database schema design through to a deployable, containerized service.
-
-</details>
-
-<details>
-<summary><b>🔹 Project Two — Data Science / ML Pipeline</b></summary>
-<br/>
-
-An end-to-end data pipeline covering ingestion, cleaning, feature engineering, and model evaluation.
-
-| Category | Details |
-|---|---|
-| **Stack** | Python, Pandas, scikit-learn, Jupyter |
-| **Scale** | Configurable pipeline for multiple dataset sources |
-| **Performance** | Vectorized transformations, reproducible experiment runs |
-| **Security** | Local data handling with no external data leakage |
-| **Impact** | Establishes a reusable template for future ML experimentation |
-| **Repository** | [View Repo](https://github.com/dharaniathananchayan/project-two) |
-
-Focused on building disciplined, reproducible ML workflows rather than one-off notebooks.
-
-</details>
-
-<details>
-<summary><b>🔹 Project Three — API / Backend Service</b></summary>
-<br/>
-
-A lightweight backend service showcasing clean API design and automated testing.
-
-| Category | Details |
-|---|---|
-| **Stack** | Python, Flask, SQLAlchemy, pytest |
-| **Scale** | Stateless service, horizontally scalable |
-| **Performance** | Sub-100ms average response time on core endpoints |
-| **Security** | Rate limiting, request validation, structured error handling |
-| **Impact** | Serves as a reference implementation for future services |
-| **Repository** | [View Repo](https://github.com/dharaniathananchayan/project-three) |
-
-Built with an emphasis on test coverage and API contract clarity.
-
-</details>
 
 ---
 
@@ -165,29 +126,6 @@ Actively building full stack and AI/ML competency through structured, project-ba
 | 📜 Certifications Completed | Multiple provider-verified courses in Cloud, ML, and CS fundamentals |
 | 💻 Structured Learning Roadmap | Completed a full backend-to-deployment Django learning path |
 | 📊 Active GitHub Contributor | Consistent commit activity across personal projects |
-
-</div>
-
----
-
-## 🟣 GitHub Analytics
-
-<div align="center">
-
-<img src="https://github-readme-stats.vercel.app/api?username=dharaniathananchayan&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=A78BFA&icon_color=8B5CF6&text_color=C9D1D9" width="48%"/>
-<img src="https://github-readme-streak-stats.herokuapp.com/?user=dharaniathananchayan&theme=tokyonight&hide_border=true&background=0D1117&ring=8B5CF6&fire=A78BFA&currStreakLabel=A78BFA" width="48%"/>
-
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=dharaniathananchayan&layout=compact&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=A78BFA&text_color=C9D1D9" width="48%"/>
-
-</div>
-
----
-
-## 🟣 GitHub Trophies
-
-<div align="center">
-
-<img src="https://github-profile-trophy.vercel.app/?username=dharaniathananchayan&theme=discord&no-frame=true&row=1&column=6&margin-w=8" />
 
 </div>
 
