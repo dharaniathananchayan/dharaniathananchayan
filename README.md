@@ -141,11 +141,11 @@ Actively building full stack and AI/ML competency through structured, project-ba
 
 ---
 
-## 🟣 Contribution Snake
+## 🟣 Daily Dev Joke
 
 <div align="center">
 
-<img src="https://raw.githubusercontent.com/dharaniathananchayan/dharaniathananchayan/output/github-contribution-grid-snake-dark.svg" width="95%"/>
+![Jokes](https://quotes-github-readme.vercel.app/api?type=jokes&theme=radical)
 
 </div>
 
