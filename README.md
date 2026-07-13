@@ -157,7 +157,7 @@ Actively building full stack and AI/ML competency through structured, project-ba
 <br/>
 
 <!-- CONTRIBUTIONS_YEAR:START -->
-<h3 align="center">2026 Contributions</h3>
+<h3 align="center">36 Contributions in 2026</h3>
 <!-- CONTRIBUTIONS_YEAR:END -->
 
 <br/>
