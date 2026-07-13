@@ -134,20 +134,6 @@ Actively building full stack and AI/ML competency through structured, project-ba
 
 ---
 
-## 🟣 Achievements
-
-<div align="center">
-
-| Recognition | Details |
-|---|---|
-| 📜 Certifications Completed | Multiple provider-verified courses in Cloud, ML, and CS fundamentals |
-| 💻 Structured Learning Roadmap | Completed a full backend-to-deployment Django learning path |
-| 📊 Active GitHub Contributor | Consistent commit activity across personal projects |
-
-</div>
-
----
-
 ## 🟣 Contribution Activity
 
 <div align="center">
