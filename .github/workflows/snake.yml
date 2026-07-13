@@ -23,6 +23,52 @@ jobs:
             assets/github-contribution-grid-snake.svg
             assets/github-contribution-grid-snake-dark.svg?palette=github-dark
 
+      - name: Generate yearly contribution count
+        uses: actions/github-script@v7
+        with:
+          script: |
+            const fs = require('fs');
+            const username = 'dharaniathananchayan';
+            const year = new Date().getUTCFullYear();
+            const from = `${year}-01-01T00:00:00Z`;
+            const to = `${year}-12-31T23:59:59Z`;
+
+            const result = await github.graphql(`
+              query($username: String!, $from: DateTime!, $to: DateTime!) {
+                user(login: $username) {
+                  contributionsCollection(from: $from, to: $to) {
+                    contributionCalendar {
+                      totalContributions
+                    }
+                  }
+                }
+              }
+            `, { username, from, to });
+
+            const total = result.user.contributionsCollection.contributionCalendar.totalContributions;
+            const text = `${total.toLocaleString('en-US')} contributions in ${year}`;
+            const escapeXml = value => value.replace(/[&<>"']/g, char => ({
+              '&': '&amp;',
+              '<': '&lt;',
+              '>': '&gt;',
+              '"': '&quot;',
+              "'": '&apos;'
+            }[char]));
+
+            fs.mkdirSync('assets', { recursive: true });
+            fs.writeFileSync('assets/contributions-year-line.svg', `<svg width="900" height="54" viewBox="0 0 900 54" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <defs>
+                <linearGradient id="textGradient" x1="260" y1="0" x2="640" y2="54" gradientUnits="userSpaceOnUse">
+                  <stop stop-color="#C4B5FD"/>
+                  <stop offset="0.5" stop-color="#A78BFA"/>
+                  <stop offset="1" stop-color="#8B5CF6"/>
+                </linearGradient>
+              </defs>
+              <rect width="900" height="54" rx="12" fill="#0D1117"/>
+              <text x="450" y="34" text-anchor="middle" font-family="Fira Code, Consolas, monospace" font-size="20" font-weight="700" fill="url(#textGradient)">${escapeXml(text)}</text>
+            </svg>
+            `);
+
       - name: Push to output branch
         uses: crazy-max/ghaction-github-pages@v4
         with:
