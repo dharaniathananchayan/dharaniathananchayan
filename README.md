@@ -78,8 +78,8 @@ I'm a software engineer focused on building robust, scalable systems across the 
 <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/pandas/pandas-original.svg" title="Pandas" width="48" height="48"/>
 <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/numpy/numpy-original.svg" title="NumPy" width="48" height="48"/>
 <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/matplotlib/matplotlib-original.svg" title="Matplotlib" width="48" height="48"/>
-<img src="https://cdn.simpleicons.org/powerbi/F2C811" title="Power BI" width="48" height="48"/>
-<img src="https://cdn.simpleicons.org/tableau/E97627" title="Tableau" width="48" height="48"/>
+<img src="assets/icons/powerbi.svg" title="Power BI" width="48" height="48"/>
+<img src="assets/icons/tableau.svg" title="Tableau" width="48" height="48"/>
 </div>
 
 **AI / ML**
