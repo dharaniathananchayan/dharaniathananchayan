@@ -75,21 +75,21 @@ I'm a software engineer focused on building robust, scalable systems across the 
 **Data Analysis**
 
 <div>
-<img src="https://img.shields.io/badge/-%20-150458?style=flat-square&logo=pandas&logoColor=white" title="Pandas" width="48"/>
-<img src="https://img.shields.io/badge/-%20-013243?style=flat-square&logo=numpy&logoColor=white" title="NumPy" width="48"/>
-<img src="https://img.shields.io/badge/-%20-11557C?style=flat-square&logo=matplotlib&logoColor=white" title="Matplotlib" width="48"/>
-<img src="https://img.shields.io/badge/-%20-F2C811?style=flat-square&logo=powerbi&logoColor=black" title="Power BI" width="48"/>
-<img src="https://img.shields.io/badge/-%20-E97627?style=flat-square&logo=tableau&logoColor=white" title="Tableau" width="48"/>
+<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/pandas/pandas-original.svg" title="Pandas" width="48" height="48"/>
+<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/numpy/numpy-original.svg" title="NumPy" width="48" height="48"/>
+<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/matplotlib/matplotlib-original.svg" title="Matplotlib" width="48" height="48"/>
+<img src="https://cdn.simpleicons.org/powerbi/F2C811" title="Power BI" width="48" height="48"/>
+<img src="https://cdn.simpleicons.org/tableau/E97627" title="Tableau" width="48" height="48"/>
 </div>
 
 **AI / ML**
 
 <div>
-<img src="https://skillicons.dev/icons?i=tensorflow&theme=dark" title="TensorFlow" width="48"/>
-<img src="https://skillicons.dev/icons?i=pytorch&theme=dark" title="PyTorch" width="48"/>
-<img src="https://skillicons.dev/icons?i=sklearn&theme=dark" title="Scikit-learn" width="48"/>
-<img src="https://skillicons.dev/icons?i=opencv&theme=dark" title="OpenCV" width="48"/>
-<img src="https://img.shields.io/badge/-%20-D00000?style=flat-square&logo=keras&logoColor=white" title="Keras" width="48"/>
+<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tensorflow/tensorflow-original.svg" title="TensorFlow" width="48" height="48"/>
+<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/pytorch/pytorch-original.svg" title="PyTorch" width="48" height="48"/>
+<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/scikitlearn/scikitlearn-original.svg" title="Scikit-learn" width="48" height="48"/>
+<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/opencv/opencv-original.svg" title="OpenCV" width="48" height="48"/>
+<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/keras/keras-original.svg" title="Keras" width="48" height="48"/>
 </div>
 
 **Tools**
@@ -156,7 +156,9 @@ Actively building full stack and AI/ML competency through structured, project-ba
 
 <br/>
 
-<img src="https://raw.githubusercontent.com/dharaniathananchayan/dharaniathananchayan/output/contributions-year-line.svg" width="95%"/>
+<!-- CONTRIBUTIONS_YEAR:START -->
+<h3 align="center">2026 Contributions</h3>
+<!-- CONTRIBUTIONS_YEAR:END -->
 
 <br/>
 

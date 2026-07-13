@@ -15,6 +15,11 @@ jobs:
   generate:
     runs-on: ubuntu-latest
     steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          ref: main
+
       - name: Generate snake
         uses: Platane/snk@v3
         with:
@@ -46,7 +51,7 @@ jobs:
             `, { username, from, to });
 
             const total = result.user.contributionsCollection.contributionCalendar.totalContributions;
-            const text = `${total.toLocaleString('en-US')} contributions in ${year}`;
+            const text = `${total.toLocaleString('en-US')} Contributions in ${year}`;
             const escapeXml = value => value.replace(/[&<>"']/g, char => ({
               '&': '&amp;',
               '<': '&lt;',
@@ -55,19 +60,24 @@ jobs:
               "'": '&apos;'
             }[char]));
 
-            fs.mkdirSync('assets', { recursive: true });
-            fs.writeFileSync('assets/contributions-year-line.svg', `<svg width="900" height="54" viewBox="0 0 900 54" fill="none" xmlns="http://www.w3.org/2000/svg">
-              <defs>
-                <linearGradient id="textGradient" x1="260" y1="0" x2="640" y2="54" gradientUnits="userSpaceOnUse">
-                  <stop stop-color="#C4B5FD"/>
-                  <stop offset="0.5" stop-color="#A78BFA"/>
-                  <stop offset="1" stop-color="#8B5CF6"/>
-                </linearGradient>
-              </defs>
-              <rect width="900" height="54" rx="12" fill="#0D1117"/>
-              <text x="450" y="34" text-anchor="middle" font-family="Fira Code, Consolas, monospace" font-size="20" font-weight="700" fill="url(#textGradient)">${escapeXml(text)}</text>
-            </svg>
-            `);
+            const readmePath = 'README.md';
+            const readme = fs.readFileSync(readmePath, 'utf8');
+            const marker = /<!-- CONTRIBUTIONS_YEAR:START -->[\s\S]*?<!-- CONTRIBUTIONS_YEAR:END -->/;
+            const replacement = `<!-- CONTRIBUTIONS_YEAR:START -->\n<h3 align="center">${escapeXml(text)}</h3>\n<!-- CONTRIBUTIONS_YEAR:END -->`;
+
+            if (!marker.test(readme)) {
+              throw new Error('Contribution year markers not found in README.md');
+            }
+
+            fs.writeFileSync(readmePath, readme.replace(marker, replacement));
+
+      - name: Commit yearly contribution heading
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add README.md
+          git diff --staged --quiet || git commit -m "Update yearly contribution heading [skip ci]"
+          git push
 
       - name: Push to output branch
         uses: crazy-max/ghaction-github-pages@v4
