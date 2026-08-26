@@ -138,7 +138,7 @@ Actively building full stack and AI/ML competency through structured, project-ba
 
 <div align="center">
 
-<img src="https://streak-stats.demolab.com?user=dharaniathananchayan&theme=tokyo-night&hide_border=true&background=0D1117&ring=A78BFA&fire=8B5CF6&currStreakLabel=A78BFA" width="95%"/>
+<img src="https://raw.githubusercontent.com/dharaniathananchayan/dharaniathananchayan/main/activity-graph.svg" width="95%"/>
 
 <br/>
 
