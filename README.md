@@ -138,7 +138,7 @@ Actively building full stack and AI/ML competency through structured, project-ba
 
 <div align="center">
 
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=dharaniathananchayan&theme=tokyo-night&hide_border=true&bg_color=0D1117&color=A78BFA&line=8B5CF6&point=C9D1D9" width="95%"/>
+<img src="https://streak-stats.demolab.com?user=dharaniathananchayan&theme=tokyo-night&hide_border=true&background=0D1117&ring=A78BFA&fire=8B5CF6&currStreakLabel=A78BFA" width="95%"/>
 
 <br/>
 
@@ -148,7 +148,13 @@ Actively building full stack and AI/ML competency through structured, project-ba
 
 <br/>
 
-<img src="https://raw.githubusercontent.com/dharaniathananchayan/dharaniathananchayan/output/github-contribution-grid-snake-dark.svg" width="95%"/>
+<p align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/dharaniathananchayan/dharaniathananchayan/main/dark.svg">
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/dharaniathananchayan/dharaniathananchayan/main/light.svg">
+    <img alt="GitHub Jet Heatmap" src="https://raw.githubusercontent.com/dharaniathananchayan/dharaniathananchayan/main/dark.svg" width="100%">
+  </picture>
+</p>
 
 </div>
 
