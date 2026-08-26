@@ -1,4 +1,4 @@
-name: Generate Snake
+name: Generate Jet Heatmap
 
 on:
   schedule:
