@@ -1,4 +1,4 @@
-name: Generate Jet Heatmap
+name: Generate Rocket Game
 
 on:
   schedule:
@@ -20,13 +20,17 @@ jobs:
         with:
           ref: main
 
-      - name: Setup Python
-        uses: actions/setup-python@v5
+      - name: Set up Node
+        uses: actions/setup-node@v4
         with:
-          python-version: '3.x'
+          node-version: 20
 
-      - name: Generate Jet Heatmap
-        run: python .github/scripts/generate_jet.py
+      - name: Generate rocket game animation
+        env:
+          GH_USERNAME: ${{ github.repository_owner }}
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          OUTPUT_PATH: dist/github-rocket.svg
+        run: node generate.mjs
 
       - name: Generate yearly contribution count
         uses: actions/github-script@v7
@@ -82,7 +86,7 @@ jobs:
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add README.md dark.svg light.svg activity-graph.svg
+          git add README.md activity-graph.svg dist/github-rocket.svg
           git diff --staged --quiet || git commit -m "Update contribution SVGs and yearly heading [skip ci]"
           git push
 

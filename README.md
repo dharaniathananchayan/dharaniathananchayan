@@ -148,13 +148,7 @@ Actively building full stack and AI/ML competency through structured, project-ba
 
 <br/>
 
-<p align="center">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/dharaniathananchayan/dharaniathananchayan/main/dark.svg">
-    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/dharaniathananchayan/dharaniathananchayan/main/light.svg">
-    <img alt="GitHub Jet Heatmap" src="https://raw.githubusercontent.com/dharaniathananchayan/dharaniathananchayan/main/dark.svg" width="100%">
-  </picture>
-</p>
+<img src="https://raw.githubusercontent.com/dharaniathananchayan/dharaniathananchayan/main/dist/github-rocket.svg" alt="Animated GitHub contribution rocket game" width="100%" />
 
 </div>
 
