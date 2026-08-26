@@ -20,15 +20,13 @@ jobs:
         with:
           ref: main
 
-      - name: Generate snake
-        uses: Platane/snk@v3
+      - name: Setup Python
+        uses: actions/setup-python@v5
         with:
-          github_user_name: dharaniathananchayan
-          outputs: |
-            dark.svg?palette=github-dark
-            light.svg?palette=github-light
-            assets/github-contribution-grid-snake.svg
-            assets/github-contribution-grid-snake-dark.svg?palette=github-dark
+          python-version: '3.x'
+
+      - name: Generate Jet Heatmap
+        run: python .github/scripts/generate_jet.py
 
       - name: Generate yearly contribution count
         uses: actions/github-script@v7
