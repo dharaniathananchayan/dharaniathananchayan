@@ -107,26 +107,37 @@ I'm a software engineer focused on building robust, scalable systems across the 
 
 ## 🟣 Featured Projects
 
-- **[Skin Cancer Detection and Classification System Using CNN-SVM](https://github.com/dharaniathananchayan/skincancer-detection)**  
-  🔗 **Repository:** [https://github.com/dharaniathananchayan/skincancer-detection](https://github.com/dharaniathananchayan/skincancer-detection)  
-  Dual-engine clinical diagnostic system combining fine-tuned MobileNetV2 CNN feature extraction and RBF-SVM classification for HAM10000 skin lesion analysis with 94.17% binary accuracy.
+<div align="center">
 
-- **[SwiftSupport – Intelligent Customer Support & Automated Incident Resolution Platform](https://github.com/dharaniathananchayan/swiftsupport)**  
-  🔗 **Repository:** [https://github.com/dharaniathananchayan/swiftsupport](https://github.com/dharaniathananchayan/swiftsupport) | 🌐 **Live Demo:** [https://swiftsupport-beta.vercel.app/](https://swiftsupport-beta.vercel.app/)  
-  AI-powered customer support and incident resolution platform featuring automated LLM ticket triage, smart agent dispatch, outage clustering, and real-time Prometheus/Grafana telemetry.
+<a href="https://github.com/dharaniathananchayan/skincancer-detection">
+  <img src="https://github-readme-stats.vercel.app/api/pin/?username=dharaniathananchayan&repo=skincancer-detection&bg_color=0D1117&title_color=A78BFA&text_color=c9d1d9&icon_color=7C3AED&border_color=7C3AED" alt="Skin Cancer Detection" />
+</a>
+<a href="https://github.com/dharaniathananchayan/swiftsupport">
+  <img src="https://github-readme-stats.vercel.app/api/pin/?username=dharaniathananchayan&repo=swiftsupport&bg_color=0D1117&title_color=A78BFA&text_color=c9d1d9&icon_color=7C3AED&border_color=7C3AED" alt="SwiftSupport" />
+</a>
 
-- **[CampusIQ – AI-Powered Campus Event Intelligence & Management Platform](https://github.com/dharaniathananchayan/campusiq)**  
-  🔗 **Repository:** [https://github.com/dharaniathananchayan/campusiq](https://github.com/dharaniathananchayan/campusiq) | 🌐 **Live Demo:** [https://campusiq-gamma-eosin.vercel.app/login](https://campusiq-gamma-eosin.vercel.app/login)  
-  AI-powered campus event intelligence platform featuring sentence-transformer semantic matching (0–100%), real-time persistent Q&A forums, multi-turn AI co-pilots, and atomic capacity gating.
+<br/>
 
-- **[ShopSense – AI-Powered Multi-Vendor E-Commerce & Retail Analytics Platform](https://github.com/dharaniathananchayan/shopsense)**  
-  🔗 **Repository:** [https://github.com/dharaniathananchayan/shopsense](https://github.com/dharaniathananchayan/shopsense)  
-  Multi-vendor e-commerce and retail analytics platform featuring Groq LLaMA-3.3-70B RAG shopping assistance, Text-to-SQL business intelligence, and ARIMA/Holt-Winters inventory forecasting.
+<a href="https://github.com/dharaniathananchayan/campusiq">
+  <img src="https://github-readme-stats.vercel.app/api/pin/?username=dharaniathananchayan&repo=campusiq&bg_color=0D1117&title_color=A78BFA&text_color=c9d1d9&icon_color=7C3AED&border_color=7C3AED" alt="CampusIQ" />
+</a>
+<a href="https://github.com/dharaniathananchayan/shopsense">
+  <img src="https://github-readme-stats.vercel.app/api/pin/?username=dharaniathananchayan&repo=shopsense&bg_color=0D1117&title_color=A78BFA&text_color=c9d1d9&icon_color=7C3AED&border_color=7C3AED" alt="ShopSense" />
+</a>
 
-- **[Autonomous Document RAG & Conversational Knowledge Engine](https://github.com/dharaniathananchayan/rag-qa-system)**  
-  🔗 **Repository:** [https://github.com/dharaniathananchayan/rag-qa-system](https://github.com/dharaniathananchayan/rag-qa-system)  
-  Context-grounded PDF document RAG engine combining LangChain ingestion, Pinecone dense vector indexing, and ultra-low-latency Groq LLaMA-3.3-70B inference with an interactive Streamlit UI.
+<br/>
 
+<a href="https://github.com/dharaniathananchayan/rag-qa-system">
+  <img src="https://github-readme-stats.vercel.app/api/pin/?username=dharaniathananchayan&repo=rag-qa-system&bg_color=0D1117&title_color=A78BFA&text_color=c9d1d9&icon_color=7C3AED&border_color=7C3AED" alt="Autonomous Document RAG" />
+</a>
+
+<br/><br/>
+
+🌐 **Live Demos:** 
+[![SwiftSupport Demo](https://img.shields.io/badge/SwiftSupport-Live%20Demo-4C1D95?style=flat-square&logo=vercel&logoColor=white)](https://swiftsupport-beta.vercel.app/)
+[![CampusIQ Demo](https://img.shields.io/badge/CampusIQ-Live%20Demo-4C1D95?style=flat-square&logo=vercel&logoColor=white)](https://campusiq-gamma-eosin.vercel.app/login)
+
+</div>
 ---
 
 ## 🟣 Experience
