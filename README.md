@@ -195,6 +195,7 @@ Contributed to machine learning lifecycles, developing data preprocessing pipeli
 - Established model evaluation frameworks (ROC-AUC, confusion matrices) and collaborated to containerize ML inference workflows for deployment
 
 `Python` `Machine Learning` `Scikit-Learn` `OpenCV` `Pandas` `NumPy` `Feature Engineering` `Model Evaluation`
+
 ---
 
 ## 🟣 Contribution Activity
