@@ -105,16 +105,27 @@ I'm a software engineer focused on building robust, scalable systems across the 
 
 ---
 
-## 🟣 AI / ML Expertise
+## 🟣 Featured Projects
 
-| Domain | Proficiency | Details |
-|---|:---:|---|
-| Machine Learning Fundamentals | ⭐⭐⭐⭐☆ | Supervised/unsupervised learning, scikit-learn, model evaluation |
-| Deep Learning | ⭐⭐⭐☆☆ | Neural networks, TensorFlow/PyTorch foundations |
-| Data Analysis & Wrangling | ⭐⭐⭐⭐☆ | Pandas, NumPy, exploratory data analysis, visualization |
-| NLP | ⭐⭐⭐☆☆ | Text preprocessing, embeddings, transformer-based models |
-| MLOps Basics | ⭐⭐⭐☆☆ | Model packaging, experiment tracking, deployment fundamentals |
-| Applied AI Integration | ⭐⭐⭐⭐☆ | LLM APIs, prompt engineering, AI-powered application design |
+- **[Skin Cancer Detection and Classification System Using CNN-SVM](https://github.com/dharaniathananchayan/skincancer-detection)**  
+  🔗 **Repository:** [https://github.com/dharaniathananchayan/skincancer-detection](https://github.com/dharaniathananchayan/skincancer-detection)  
+  Dual-engine clinical diagnostic system combining fine-tuned MobileNetV2 CNN feature extraction and RBF-SVM classification for HAM10000 skin lesion analysis with 94.17% binary accuracy.
+
+- **[SwiftSupport – Intelligent Customer Support & Automated Incident Resolution Platform](https://github.com/dharaniathananchayan/swiftsupport)**  
+  🔗 **Repository:** [https://github.com/dharaniathananchayan/swiftsupport](https://github.com/dharaniathananchayan/swiftsupport) | 🌐 **Live Demo:** [https://swiftsupport-beta.vercel.app/](https://swiftsupport-beta.vercel.app/)  
+  AI-powered customer support and incident resolution platform featuring automated LLM ticket triage, smart agent dispatch, outage clustering, and real-time Prometheus/Grafana telemetry.
+
+- **[CampusIQ – AI-Powered Campus Event Intelligence & Management Platform](https://github.com/dharaniathananchayan/campusiq)**  
+  🔗 **Repository:** [https://github.com/dharaniathananchayan/campusiq](https://github.com/dharaniathananchayan/campusiq) | 🌐 **Live Demo:** [https://campusiq-gamma-eosin.vercel.app/login](https://campusiq-gamma-eosin.vercel.app/login)  
+  AI-powered campus event intelligence platform featuring sentence-transformer semantic matching (0–100%), real-time persistent Q&A forums, multi-turn AI co-pilots, and atomic capacity gating.
+
+- **[ShopSense – AI-Powered Multi-Vendor E-Commerce & Retail Analytics Platform](https://github.com/dharaniathananchayan/shopsense)**  
+  🔗 **Repository:** [https://github.com/dharaniathananchayan/shopsense](https://github.com/dharaniathananchayan/shopsense)  
+  Multi-vendor e-commerce and retail analytics platform featuring Groq LLaMA-3.3-70B RAG shopping assistance, Text-to-SQL business intelligence, and ARIMA/Holt-Winters inventory forecasting.
+
+- **[Autonomous Document RAG & Conversational Knowledge Engine](https://github.com/dharaniathananchayan/rag-qa-system)**  
+  🔗 **Repository:** [https://github.com/dharaniathananchayan/rag-qa-system](https://github.com/dharaniathananchayan/rag-qa-system)  
+  Context-grounded PDF document RAG engine combining LangChain ingestion, Pinecone dense vector indexing, and ultra-low-latency Groq LLaMA-3.3-70B inference with an interactive Streamlit UI.
 
 ---
 
