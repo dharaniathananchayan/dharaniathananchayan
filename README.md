@@ -25,11 +25,12 @@
 ## 🟣 About Me
 
 ```yaml
-Name:        Dharania
-Role:        Software Engineer | Full Stack Developer | AI/ML Practitioner
-Focus:       Building scalable, production-grade software with clean architecture
-Currently:   Deepening expertise in Python, Django, and applied Machine Learning
-Philosophy:  Engineering thoughtful, data-informed products — not just code
+Name:        Dharania Thananchayan
+Role:        Software Engineer | Full Stack Developer
+Interests:   AI/ML | Generative AI | RAG | Backend Engineering
+Building:    Scalable applications and intelligent, production-ready systems
+Exploring:   Python | Django | LLMs | Retrieval-Augmented Generation
+Approach:    Clean architecture, practical innovation, and thoughtful engineering.
 ```
 
 I'm a software engineer focused on building robust, scalable systems across the full stack — from backend architecture and REST APIs to data pipelines and machine learning models. My work blends **product engineering thinking** with a strong grounding in **Python, Django, and modern AI/ML tooling**, aiming to ship software that is maintainable, performant, and genuinely useful.
