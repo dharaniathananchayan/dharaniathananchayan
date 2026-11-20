@@ -226,27 +226,23 @@ Contributed to machine learning lifecycles, developing data preprocessing pipeli
 
 ---
 
-## 🟣 Current Focus
+## 🟣 What I'm Working Towards
 
-```yaml
-Learning:
-  - Advanced Django (DRF, Celery, deployment pipelines)
-  - Applied Machine Learning & model deployment
-  - System design fundamentals
+I'm interested in building software that goes beyond functionality — systems that are intelligent, scalable, and thoughtfully engineered.
 
-Building:
-  - Full stack projects with production-grade practices
-  - Personal ML experimentation pipeline
+Currently deepening my understanding of backend engineering, applied machine learning, and Generative AI, while exploring how these technologies come together in real-world applications.
 
-Exploring:
-  - LLM-powered application development
-  - Cloud-native deployment workflows
+My current technical interests include:
 
-Open To:
-  - Software Engineering opportunities
-  - AI/ML collaborations
-  - Open source contributions
-```
+- Designing scalable backend systems using Python, Django, FastAPI, and REST APIs.
+- Building intelligent applications powered by LLMs, RAG, and vector databases.
+- Developing end-to-end machine learning workflows, from experimentation to deployment.
+- Exploring cloud infrastructure, Docker, CI/CD, and MLOps.
+- Strengthening my understanding of system design and software architecture.
+
+Outside my current projects, I'm always curious about emerging technologies, open-source ecosystems, and unconventional ways to solve engineering problems.
+
+**🎯 Interested In:** Software Engineering · AI/ML · Backend Development · Generative AI · Open-Source Collaboration
 
 ---
 
