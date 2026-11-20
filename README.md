@@ -107,37 +107,54 @@ I'm a software engineer focused on building robust, scalable systems across the 
 
 ## 🟣 Featured Projects
 
-<div align="center">
-
-<a href="https://github.com/dharaniathananchayan/skincancer-detection">
-  <img src="https://github-readme-stats.vercel.app/api/pin/?username=dharaniathananchayan&repo=skincancer-detection&bg_color=0D1117&title_color=A78BFA&text_color=c9d1d9&icon_color=7C3AED&border_color=7C3AED" alt="Skin Cancer Detection" />
-</a>
-<a href="https://github.com/dharaniathananchayan/swiftsupport">
-  <img src="https://github-readme-stats.vercel.app/api/pin/?username=dharaniathananchayan&repo=swiftsupport&bg_color=0D1117&title_color=A78BFA&text_color=c9d1d9&icon_color=7C3AED&border_color=7C3AED" alt="SwiftSupport" />
-</a>
-
-<br/>
-
-<a href="https://github.com/dharaniathananchayan/campusiq">
-  <img src="https://github-readme-stats.vercel.app/api/pin/?username=dharaniathananchayan&repo=campusiq&bg_color=0D1117&title_color=A78BFA&text_color=c9d1d9&icon_color=7C3AED&border_color=7C3AED" alt="CampusIQ" />
-</a>
-<a href="https://github.com/dharaniathananchayan/shopsense">
-  <img src="https://github-readme-stats.vercel.app/api/pin/?username=dharaniathananchayan&repo=shopsense&bg_color=0D1117&title_color=A78BFA&text_color=c9d1d9&icon_color=7C3AED&border_color=7C3AED" alt="ShopSense" />
-</a>
-
-<br/>
-
-<a href="https://github.com/dharaniathananchayan/rag-qa-system">
-  <img src="https://github-readme-stats.vercel.app/api/pin/?username=dharaniathananchayan&repo=rag-qa-system&bg_color=0D1117&title_color=A78BFA&text_color=c9d1d9&icon_color=7C3AED&border_color=7C3AED" alt="Autonomous Document RAG" />
-</a>
-
-<br/><br/>
-
-🌐 **Live Demos:** 
-[![SwiftSupport Demo](https://img.shields.io/badge/SwiftSupport-Live%20Demo-4C1D95?style=flat-square&logo=vercel&logoColor=white)](https://swiftsupport-beta.vercel.app/)
-[![CampusIQ Demo](https://img.shields.io/badge/CampusIQ-Live%20Demo-4C1D95?style=flat-square&logo=vercel&logoColor=white)](https://campusiq-gamma-eosin.vercel.app/login)
-
-</div>
+<table width="100%">
+  <tr>
+    <td width="50%" valign="top">
+      <h3 align="left">Skin Cancer Detection and Classification System Using CNN-SVM</h3>
+      <p align="left">Dual-engine clinical diagnostic system combining fine-tuned MobileNetV2 CNN feature extraction and RBF-SVM classification for HAM10000 skin lesion analysis with 94.17% binary accuracy.</p>
+      <br/>
+      <a href="https://github.com/dharaniathananchayan/skincancer-detection">
+        <img src="https://img.shields.io/badge/View_Repo-7C3AED?style=for-the-badge&logo=github&logoColor=white" alt="View Repo" />
+      </a>
+    </td>
+    <td width="50%" valign="top">
+      <h3 align="left">SwiftSupport – Intelligent Customer Support & Automated Incident Resolution Platform</h3>
+      <p align="left">AI-powered customer support and incident resolution platform featuring automated LLM ticket triage, smart agent dispatch, outage clustering, and real-time Prometheus/Grafana telemetry.</p>
+      <br/>
+      <a href="https://github.com/dharaniathananchayan/swiftsupport">
+        <img src="https://img.shields.io/badge/View_Repo-7C3AED?style=for-the-badge&logo=github&logoColor=white" alt="View Repo" />
+      </a>
+    </td>
+  </tr>
+  <tr>
+    <td width="50%" valign="top">
+      <h3 align="left">CampusIQ – AI-Powered Campus Event Intelligence & Management Platform</h3>
+      <p align="left">AI-powered campus event intelligence platform featuring sentence-transformer semantic matching (0–100%), real-time persistent Q&A forums, multi-turn AI co-pilots, and atomic capacity gating.</p>
+      <br/>
+      <a href="https://github.com/dharaniathananchayan/campusiq">
+        <img src="https://img.shields.io/badge/View_Repo-7C3AED?style=for-the-badge&logo=github&logoColor=white" alt="View Repo" />
+      </a>
+    </td>
+    <td width="50%" valign="top">
+      <h3 align="left">ShopSense – AI-Powered Multi-Vendor E-Commerce & Retail Analytics Platform</h3>
+      <p align="left">Multi-vendor e-commerce and retail analytics platform featuring Groq LLaMA-3.3-70B RAG shopping assistance, Text-to-SQL business intelligence, and ARIMA/Holt-Winters inventory forecasting.</p>
+      <br/>
+      <a href="https://github.com/dharaniathananchayan/shopsense">
+        <img src="https://img.shields.io/badge/View_Repo-7C3AED?style=for-the-badge&logo=github&logoColor=white" alt="View Repo" />
+      </a>
+    </td>
+  </tr>
+  <tr>
+    <td colspan="2" valign="top">
+      <h3 align="left">Autonomous Document RAG & Conversational Knowledge Engine</h3>
+      <p align="left">Context-grounded PDF document RAG engine combining LangChain ingestion, Pinecone dense vector indexing, and ultra-low-latency Groq LLaMA-3.3-70B inference with an interactive Streamlit UI.</p>
+      <br/>
+      <a href="https://github.com/dharaniathananchayan/rag-qa-system">
+        <img src="https://img.shields.io/badge/View_Repo-7C3AED?style=for-the-badge&logo=github&logoColor=white" alt="View Repo" />
+      </a>
+    </td>
+  </tr>
+</table>
 ---
 
 ## 🟣 Experience
