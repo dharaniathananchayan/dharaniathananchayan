@@ -42,66 +42,181 @@ I'm a software engineer focused on building robust, scalable systems across the 
 
 **Languages**
 
-<div>
-<img src="https://skillicons.dev/icons?i=python&theme=dark" title="Python" width="48"/>
-<img src="https://skillicons.dev/icons?i=java&theme=dark" title="Java" width="48"/>
-<img src="https://skillicons.dev/icons?i=js&theme=dark" title="JavaScript" width="48"/>
-<img src="https://skillicons.dev/icons?i=ts&theme=dark" title="TypeScript" width="48"/>
-<img src="https://skillicons.dev/icons?i=mysql&theme=dark" title="SQL" width="48"/>
-</div>
+<table>
+  <tr>
+    <td align="center" width="96">
+      <img src="https://skillicons.dev/icons?i=python&theme=dark" width="48" height="48" alt="Python" />
+      <br/><sub><b>Python</b></sub>
+    </td>
+    <td align="center" width="96">
+      <img src="https://skillicons.dev/icons?i=java&theme=dark" width="48" height="48" alt="Java" />
+      <br/><sub><b>Java</b></sub>
+    </td>
+    <td align="center" width="96">
+      <img src="https://skillicons.dev/icons?i=js&theme=dark" width="48" height="48" alt="JavaScript" />
+      <br/><sub><b>JavaScript</b></sub>
+    </td>
+    <td align="center" width="96">
+      <img src="https://skillicons.dev/icons?i=ts&theme=dark" width="48" height="48" alt="TypeScript" />
+      <br/><sub><b>TypeScript</b></sub>
+    </td>
+    <td align="center" width="96">
+      <img src="https://skillicons.dev/icons?i=mysql&theme=dark" width="48" height="48" alt="SQL" />
+      <br/><sub><b>SQL</b></sub>
+    </td>
+  </tr>
+</table>
 
 **Frontend**
 
-<div>
-<img src="https://skillicons.dev/icons?i=react&theme=dark" title="React" width="48"/>
-<img src="https://skillicons.dev/icons?i=html&theme=dark" title="HTML5" width="48"/>
-<img src="https://skillicons.dev/icons?i=css&theme=dark" title="CSS3" width="48"/>
-<img src="https://skillicons.dev/icons?i=tailwind&theme=dark" title="Tailwind CSS" width="48"/>
-<img src="https://skillicons.dev/icons?i=bootstrap&theme=dark" title="Bootstrap" width="48"/>
-<img src="https://skillicons.dev/icons?i=jquery&theme=dark" title="jQuery" width="48"/>
-</div>
+<table>
+  <tr>
+    <td align="center" width="96">
+      <img src="https://skillicons.dev/icons?i=react&theme=dark" width="48" height="48" alt="React" />
+      <br/><sub><b>React</b></sub>
+    </td>
+    <td align="center" width="96">
+      <img src="https://skillicons.dev/icons?i=html&theme=dark" width="48" height="48" alt="HTML5" />
+      <br/><sub><b>HTML5</b></sub>
+    </td>
+    <td align="center" width="96">
+      <img src="https://skillicons.dev/icons?i=css&theme=dark" width="48" height="48" alt="CSS3" />
+      <br/><sub><b>CSS3</b></sub>
+    </td>
+    <td align="center" width="96">
+      <img src="https://skillicons.dev/icons?i=tailwind&theme=dark" width="48" height="48" alt="Tailwind CSS" />
+      <br/><sub><b>Tailwind CSS</b></sub>
+    </td>
+    <td align="center" width="96">
+      <img src="https://skillicons.dev/icons?i=bootstrap&theme=dark" width="48" height="48" alt="Bootstrap" />
+      <br/><sub><b>Bootstrap</b></sub>
+    </td>
+    <td align="center" width="96">
+      <img src="https://skillicons.dev/icons?i=jquery&theme=dark" width="48" height="48" alt="jQuery" />
+      <br/><sub><b>jQuery</b></sub>
+    </td>
+  </tr>
+</table>
 
 **Backend & Databases**
 
-<div>
-<img src="https://skillicons.dev/icons?i=django&theme=dark" title="Django" width="48"/>
-<img src="https://skillicons.dev/icons?i=flask&theme=dark" title="Flask" width="48"/>
-<img src="https://skillicons.dev/icons?i=mysql&theme=dark" title="MySQL" width="48"/>
-<img src="https://skillicons.dev/icons?i=postgres&theme=dark" title="PostgreSQL" width="48"/>
-<img src="https://skillicons.dev/icons?i=mongodb&theme=dark" title="MongoDB" width="48"/>
-<img src="https://skillicons.dev/icons?i=sqlite&theme=dark" title="SQLite" width="48"/>
-</div>
+<table>
+  <tr>
+    <td align="center" width="96">
+      <img src="https://skillicons.dev/icons?i=fastapi&theme=dark" width="48" height="48" alt="FastAPI" />
+      <br/><sub><b>FastAPI</b></sub>
+    </td>
+    <td align="center" width="96">
+      <img src="https://skillicons.dev/icons?i=django&theme=dark" width="48" height="48" alt="Django" />
+      <br/><sub><b>Django</b></sub>
+    </td>
+    <td align="center" width="96">
+      <img src="https://skillicons.dev/icons?i=flask&theme=dark" width="48" height="48" alt="Flask" />
+      <br/><sub><b>Flask</b></sub>
+    </td>
+    <td align="center" width="96">
+      <img src="https://skillicons.dev/icons?i=postgres&theme=dark" width="48" height="48" alt="PostgreSQL" />
+      <br/><sub><b>PostgreSQL</b></sub>
+    </td>
+    <td align="center" width="96">
+      <img src="https://skillicons.dev/icons?i=mysql&theme=dark" width="48" height="48" alt="MySQL" />
+      <br/><sub><b>MySQL</b></sub>
+    </td>
+    <td align="center" width="96">
+      <img src="https://skillicons.dev/icons?i=mongodb&theme=dark" width="48" height="48" alt="MongoDB" />
+      <br/><sub><b>MongoDB</b></sub>
+    </td>
+    <td align="center" width="96">
+      <img src="https://skillicons.dev/icons?i=sqlite&theme=dark" width="48" height="48" alt="SQLite" />
+      <br/><sub><b>SQLite</b></sub>
+    </td>
+  </tr>
+</table>
 
 **Data Analysis**
 
-<div>
-<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/pandas/pandas-original.svg" title="Pandas" width="48" height="48"/>
-<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/numpy/numpy-original.svg" title="NumPy" width="48" height="48"/>
-<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/matplotlib/matplotlib-original.svg" title="Matplotlib" width="48" height="48"/>
-<img src="assets/icons/powerbi.svg" title="Power BI" width="48" height="48"/>
-<img src="assets/icons/tableau.svg" title="Tableau" width="48" height="48"/>
-</div>
+<table>
+  <tr>
+    <td align="center" width="96">
+      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/pandas/pandas-original.svg" width="48" height="48" alt="Pandas" />
+      <br/><sub><b>Pandas</b></sub>
+    </td>
+    <td align="center" width="96">
+      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/numpy/numpy-original.svg" width="48" height="48" alt="NumPy" />
+      <br/><sub><b>NumPy</b></sub>
+    </td>
+    <td align="center" width="96">
+      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/matplotlib/matplotlib-original.svg" width="48" height="48" alt="Matplotlib" />
+      <br/><sub><b>Matplotlib</b></sub>
+    </td>
+    <td align="center" width="96">
+      <img src="assets/icons/powerbi.svg" width="48" height="48" alt="Power BI" />
+      <br/><sub><b>Power BI</b></sub>
+    </td>
+    <td align="center" width="96">
+      <img src="assets/icons/tableau.svg" width="48" height="48" alt="Tableau" />
+      <br/><sub><b>Tableau</b></sub>
+    </td>
+  </tr>
+</table>
 
 **AI / ML**
 
-<div>
-<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tensorflow/tensorflow-original.svg" title="TensorFlow" width="48" height="48"/>
-<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/pytorch/pytorch-original.svg" title="PyTorch" width="48" height="48"/>
-<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/scikitlearn/scikitlearn-original.svg" title="Scikit-learn" width="48" height="48"/>
-<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/opencv/opencv-original.svg" title="OpenCV" width="48" height="48"/>
-<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/keras/keras-original.svg" title="Keras" width="48" height="48"/>
-</div>
+<table>
+  <tr>
+    <td align="center" width="96">
+      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tensorflow/tensorflow-original.svg" width="48" height="48" alt="TensorFlow" />
+      <br/><sub><b>TensorFlow</b></sub>
+    </td>
+    <td align="center" width="96">
+      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/pytorch/pytorch-original.svg" width="48" height="48" alt="PyTorch" />
+      <br/><sub><b>PyTorch</b></sub>
+    </td>
+    <td align="center" width="96">
+      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/scikitlearn/scikitlearn-original.svg" width="48" height="48" alt="Scikit-learn" />
+      <br/><sub><b>Scikit-learn</b></sub>
+    </td>
+    <td align="center" width="96">
+      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/opencv/opencv-original.svg" width="48" height="48" alt="OpenCV" />
+      <br/><sub><b>OpenCV</b></sub>
+    </td>
+    <td align="center" width="96">
+      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/keras/keras-original.svg" width="48" height="48" alt="Keras" />
+      <br/><sub><b>Keras</b></sub>
+    </td>
+  </tr>
+</table>
 
 **Tools**
 
-<div>
-<img src="https://skillicons.dev/icons?i=docker&theme=dark" title="Docker" width="48"/>
-<img src="https://skillicons.dev/icons?i=git&theme=dark" title="Git" width="48"/>
-<img src="https://skillicons.dev/icons?i=github&theme=dark" title="GitHub" width="48"/>
-<img src="https://skillicons.dev/icons?i=pycharm&theme=dark" title="PyCharm" width="48"/>
-<img src="https://skillicons.dev/icons?i=vscode&theme=dark" title="VS Code" width="48"/>
-<img src="https://skillicons.dev/icons?i=postman&theme=dark" title="Postman" width="48"/>
-</div>
+<table>
+  <tr>
+    <td align="center" width="96">
+      <img src="https://skillicons.dev/icons?i=docker&theme=dark" width="48" height="48" alt="Docker" />
+      <br/><sub><b>Docker</b></sub>
+    </td>
+    <td align="center" width="96">
+      <img src="https://skillicons.dev/icons?i=git&theme=dark" width="48" height="48" alt="Git" />
+      <br/><sub><b>Git</b></sub>
+    </td>
+    <td align="center" width="96">
+      <img src="https://skillicons.dev/icons?i=github&theme=dark" width="48" height="48" alt="GitHub" />
+      <br/><sub><b>GitHub</b></sub>
+    </td>
+    <td align="center" width="96">
+      <img src="https://skillicons.dev/icons?i=pycharm&theme=dark" width="48" height="48" alt="PyCharm" />
+      <br/><sub><b>PyCharm</b></sub>
+    </td>
+    <td align="center" width="96">
+      <img src="https://skillicons.dev/icons?i=vscode&theme=dark" width="48" height="48" alt="VS Code" />
+      <br/><sub><b>VS Code</b></sub>
+    </td>
+    <td align="center" width="96">
+      <img src="https://skillicons.dev/icons?i=postman&theme=dark" width="48" height="48" alt="Postman" />
+      <br/><sub><b>Postman</b></sub>
+    </td>
+  </tr>
+</table>
 
 ---
 
