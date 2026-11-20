@@ -159,18 +159,42 @@ I'm a software engineer focused on building robust, scalable systems across the 
 
 ## 🟣 Experience
 
-**Software Engineering Learner / Independent Projects**
-**Self-Directed** · *Ongoing*
+**Python Developer Intern**  
+**archintX** · *Sep 2026 — Present* · `Remote / Chennai`
 
-Actively building full stack and AI/ML competency through structured, project-based learning — treating each build as a production-readiness exercise rather than a tutorial exercise.
+Architecting and maintaining Python backend services, streamlining database schemas, and building modular RESTful endpoints for scalable web applications.
 
-- Designed and implemented REST APIs using Django REST Framework
-- Built data processing and ML workflows using Python's data science stack
-- Practiced version-controlled, documented development workflows
-- Studied deployment fundamentals including containerization and cloud basics
+- Architect and deploy modular RESTful API microservices using Python and FastAPI/Flask with strict schema validation
+- Engineer relational database models and optimize complex SQL queries using SQLAlchemy to minimize response latencies
+- Implement automated testing workflows with Pytest and standardize clean code practices adhering to PEP 8 standards
 
-`Python` `Django` `REST APIs` `Machine Learning` `Full Stack Development` `Git`
+`Python` `FastAPI` `Flask` `SQLAlchemy` `PostgreSQL` `REST APIs` `Pytest` `Git`
 
+<br/>
+
+**Python Developer Intern (Virtual Internship 7.0)**  
+**Infosys Springboard** · *Jul 2026 — Sep 2026* · `Virtual`
+
+Designed and engineered ShopSense, an enterprise-grade AI-driven multi-vendor e-commerce platform and retail analytics engine.
+
+- Engineered the multi-vendor ShopSense retail architecture featuring FastAPI asynchronous microservices and React 19
+- Developed an autonomous AI suite integrating an inventory-grounded RAG shopping assistant and conversational Text-to-SQL business analyst via Groq Cloud LLaMA-3.3-70B
+- Implemented predictive time-series demand forecasting using ARIMA and Holt-Winters statistical smoothing to calculate automated Reorder Points (ROP)
+
+`Python` `FastAPI` `React 19` `Groq (LLaMA-3.3-70B)` `RAG` `Text-to-SQL` `ARIMA` `Docker` `Pytest`
+
+<br/>
+
+**AI Engineer Intern**  
+**Rubixe AI Solutions** · *Completed* · `Remote / Chennai`
+
+Contributed to machine learning lifecycles, developing data preprocessing pipelines, exploratory feature engineering, and model validation frameworks across client datasets.
+
+- Constructed end-to-end exploratory data analysis (EDA) and data wrangling pipelines across structured tabular datasets and image corpuses using Pandas, NumPy, and OpenCV
+- Trained, tuned, and evaluated supervised classification and regression models using Scikit-Learn with GridSearchCV hyperparameter optimization
+- Established model evaluation frameworks (ROC-AUC, confusion matrices) and collaborated to containerize ML inference workflows for deployment
+
+`Python` `Machine Learning` `Scikit-Learn` `OpenCV` `Pandas` `NumPy` `Feature Engineering` `Model Evaluation`
 ---
 
 ## 🟣 Contribution Activity
