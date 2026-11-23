@@ -13,10 +13,11 @@
 
 <br/>
 
-[![Portfolio](https://img.shields.io/badge/Codolio-7C3AED?style=for-the-badge&logo=vercel&logoColor=white)](https://codolio.com/profile/dharaniathananchayan)
+[![Portfolio](https://img.shields.io/badge/Portfolio-7C3AED?style=for-the-badge&logo=vercel&logoColor=white)](https://dharania-thananchayan-portfolio.vercel.app/)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-6D28D9?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/dharaniathananchayan/)
 [![Email](https://img.shields.io/badge/Email-4C1D95?style=for-the-badge&logo=gmail&logoColor=white)](mailto:dharaniathananchayan@gmail.com)
 [![GitHub](https://img.shields.io/badge/GitHub-8B5CF6?style=for-the-badge&logo=github&logoColor=white)](https://github.com/dharaniathananchayan)
+[![Codolio](https://img.shields.io/badge/Codolio-7C3AED?style=for-the-badge&logoColor=white)](https://codolio.com/profile/dharaniathananchayan)
 
 </div>
 
@@ -366,10 +367,11 @@ Outside my current projects, I'm always curious about emerging technologies, ope
 
 <div align="center">
 
-[![Gmail](https://img.shields.io/badge/Gmail-4C1D95?style=for-the-badge&logo=gmail&logoColor=white)](mailto:dharaniathananchayan@gmail.com)
+[![Portfolio](https://img.shields.io/badge/Portfolio-7C3AED?style=for-the-badge&logo=vercel&logoColor=white)](https://dharania-thananchayan-portfolio.vercel.app/)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-6D28D9?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/dharaniathananchayan/)
-[![GitHub](https://img.shields.io/badge/GitHub-7C3AED?style=for-the-badge&logo=github&logoColor=white)](https://github.com/dharaniathananchayan)
-[![Portfolio](https://img.shields.io/badge/Codolio-8B5CF6?style=for-the-badge&logo=vercel&logoColor=white)](https://codolio.com/profile/dharaniathananchayan)
+[![GitHub](https://img.shields.io/badge/GitHub-8B5CF6?style=for-the-badge&logo=github&logoColor=white)](https://github.com/dharaniathananchayan)
+[![Gmail](https://img.shields.io/badge/Gmail-4C1D95?style=for-the-badge&logo=gmail&logoColor=white)](mailto:dharaniathananchayan@gmail.com)
+[![Codolio](https://img.shields.io/badge/Codolio-6D28D9?style=for-the-badge&logoColor=white)](https://codolio.com/profile/dharaniathananchayan)
 
 </div>
 
